@@ -1,0 +1,27 @@
+[
+  { "category": "Domestic airfares", "spend_million": 3845.969 },
+  { "category": "Package Tours", "spend_million": 468.082 },
+  { "category": "Organised Tours", "spend_million": 286.015 },
+  { "category": "Rental vehicles", "spend_million": 390.721 },
+  { "category": "Petrol", "spend_million": 2697.552 },
+  { "category": "Vehicle maintenance/repairs", "spend_million": 243.014 },
+  { "category": "Taxi", "spend_million": 318.533 },
+  { "category": "Other local public transport", "spend_million": 141.071 },
+  { "category": "Long distance public transport", "spend_million": 1027.628 },
+  { "category": "Accommodation", "spend_million": 7253.451 },
+  { "category": "Groceries for self-catering", "spend_million": 1460.47 },
+  {
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 1119.506
+  },
+  { "category": "Takeaways and restaurant meals", "spend_million": 3840.773 },
+  { "category": "Shopping / gifts /souvenirs", "spend_million": 1326.254 },
+  { "category": "Entertainment", "spend_million": 640.042 },
+  { "category": "Gambling", "spend_million": 136.219 },
+  { "category": "Education fees", "spend_million": 40.327 },
+  {
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 145.29
+  },
+  { "category": "Other expenditure nfd", "spend_million": 322.774 }
+]

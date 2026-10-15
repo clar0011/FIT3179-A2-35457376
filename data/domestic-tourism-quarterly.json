@@ -1,0 +1,32 @@
+[
+  {
+    "quarter": "Jun Qtr 2025",
+    "trips_million": 96.657,
+    "nights_million": 90.498,
+    "expenditure_billion": 36.374
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "trips_million": 99.275,
+    "nights_million": 89.38,
+    "expenditure_billion": 37.915
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "trips_million": 100.28,
+    "nights_million": 96.177,
+    "expenditure_billion": 39.993
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "trips_million": 100.062,
+    "nights_million": 105.59,
+    "expenditure_billion": 42.762
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "trips_million": 101.322,
+    "nights_million": 89.042,
+    "expenditure_billion": 39.499
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 26.847,
+    "participants_est": 106848,
+    "longitude": 148.9584,
+    "latitude": -35.5409
+  },
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 17.3577,
+    "participants_est": 1225023,
+    "longitude": 146.4385,
+    "latitude": -32.8493
+  },
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 18.9571,
+    "participants_est": 39501,
+    "longitude": 133.5005,
+    "latitude": -21.2707
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 17.6842,
+    "participants_est": 818181,
+    "longitude": 143.0545,
+    "latitude": -19.9336
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 15.384,
+    "participants_est": 243246,
+    "longitude": 136.9529,
+    "latitude": -32.0287
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 27.5154,
+    "participants_est": 132990,
+    "longitude": 146.6681,
+    "latitude": -42.1451
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 16.1245,
+    "participants_est": 937035,
+    "longitude": 144.547,
+    "latitude": -36.5158
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 18.2726,
+    "participants_est": 451127,
+    "longitude": 121.2074,
+    "latitude": -24.4635
+  }
+]

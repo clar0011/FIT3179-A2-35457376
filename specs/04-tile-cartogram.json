@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Tile-grid map of bushwalking participation by state/territory. Each tile has equal area.",
+  "width": 440,
+  "height": 320,
+  "data": { "url": "data/state-tile-map.json" },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "DM Sans, sans-serif",
+      "titleFont": "DM Sans, sans-serif",
+      "labelColor": "#52606d",
+      "gridColor": "#e7edf1"
+    },
+    "legend": {
+      "labelFont": "DM Sans, sans-serif",
+      "titleFont": "DM Sans, sans-serif"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 8,
+        "stroke": "#ffffff",
+        "strokeWidth": 4
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "ordinal",
+          "axis": null,
+          "scale": { "paddingInner": 0.08 }
+        },
+        "y": {
+          "field": "y",
+          "type": "ordinal",
+          "axis": null,
+          "scale": { "paddingInner": 0.08 }
+        },
+        "color": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "scale": { "scheme": "tealblues" },
+          "legend": { "title": "Bushwalking (%)" }
+        },
+        "tooltip": [
+          { "field": "state", "title": "State" },
+          {
+            "field": "participation_rate_pct",
+            "title": "Participation (%)",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "DM Sans, sans-serif",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "color": "#183238",
+        "dy": -7
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "ordinal",
+          "axis": null,
+          "scale": { "paddingInner": 0.08 }
+        },
+        "y": {
+          "field": "y",
+          "type": "ordinal",
+          "axis": null,
+          "scale": { "paddingInner": 0.08 }
+        },
+        "text": { "field": "state_code", "type": "nominal" }
+      }
+    }
+  ]
+}

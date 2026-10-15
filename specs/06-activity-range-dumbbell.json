@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Lowest-to-highest state participation estimate for each selected activity.",
+  "data": { "url": "data/activity-state-ranges.json" },
+  "width": "container",
+  "height": 300,
+  "layer": [
+    {
+      "mark": { "type": "rule", "strokeWidth": 3, "color": "#cbd5df" },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": "-x",
+          "axis": { "title": null, "labelLimit": 250 }
+        },
+        "x": {
+          "field": "lowest_rate",
+          "type": "quantitative",
+          "axis": { "title": "Adult participation rate (%)" }
+        },
+        "x2": { "field": "highest_rate" }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 95,
+        "color": "#167d78"
+      },
+      "encoding": {
+        "y": { "field": "activity", "type": "nominal", "sort": "-x" },
+        "x": { "field": "lowest_rate", "type": "quantitative" },
+        "tooltip": [
+          { "field": "activity" },
+          { "field": "lowest_state", "title": "Lowest state" },
+          { "field": "lowest_rate", "title": "Lowest (%)", "format": ".2f" }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 95,
+        "color": "#e07a43"
+      },
+      "encoding": {
+        "y": { "field": "activity", "type": "nominal", "sort": "-x" },
+        "x": { "field": "highest_rate", "type": "quantitative" },
+        "tooltip": [
+          { "field": "activity" },
+          { "field": "highest_state", "title": "Highest state" },
+          { "field": "highest_rate", "title": "Highest (%)", "format": ".2f" },
+          {
+            "field": "range_pp",
+            "title": "Range (percentage points)",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

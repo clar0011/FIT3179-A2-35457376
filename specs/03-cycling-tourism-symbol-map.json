@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Cycling-inclusive tourism trips by state/territory in 2024.",
+  "width": "container",
+  "height": 400,
+  "projection": { "type": "mercator", "center": [134, -27], "scale": 470 },
+  "layer": [
+    {
+      "data": {
+        "url": "data/state-boundaries.geojson",
+        "format": { "type": "json", "property": "features" }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f0f3f5",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.3
+      }
+    },
+    {
+      "data": { "url": "data/cycling-tourism-state.json" },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.82,
+        "stroke": "#ffffff",
+        "strokeWidth": 1.3,
+        "color": "#e07a43"
+      },
+      "encoding": {
+        "longitude": { "field": "longitude", "type": "quantitative" },
+        "latitude": { "field": "latitude", "type": "quantitative" },
+        "size": {
+          "field": "trips",
+          "type": "quantitative",
+          "scale": { "range": [60, 1700] },
+          "legend": { "title": "Trips involving cycling" }
+        },
+        "tooltip": [
+          { "field": "state", "title": "State" },
+          { "field": "trips", "title": "Trips", "format": "," },
+          { "field": "nights", "title": "Nights", "format": "," },
+          { "field": "spend_million", "title": "Spend (A$M)", "format": "," }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "cycling_participation_pct": 6.9667,
+    "cycling_tourism_trips": 1400000
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "cycling_participation_pct": 9.0445,
+    "cycling_tourism_trips": 1500000
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "cycling_participation_pct": 7.6098,
+    "cycling_tourism_trips": 762000
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "cycling_participation_pct": 8.3645,
+    "cycling_tourism_trips": 266000
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "cycling_participation_pct": 10.3356,
+    "cycling_tourism_trips": 553000
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "cycling_participation_pct": 9.1427,
+    "cycling_tourism_trips": 178000
+  },
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "cycling_participation_pct": 9.9364,
+    "cycling_tourism_trips": 36000
+  },
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "cycling_participation_pct": 13.9876,
+    "cycling_tourism_trips": 74000
+  }
+]

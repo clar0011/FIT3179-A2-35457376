@@ -1,0 +1,58 @@
+[
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "x": 3,
+    "y": 1,
+    "participation_rate_pct": 26.847
+  },
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "x": 2,
+    "y": 1,
+    "participation_rate_pct": 17.3577
+  },
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "x": 1,
+    "y": 0,
+    "participation_rate_pct": 18.9571
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "x": 2,
+    "y": 0,
+    "participation_rate_pct": 17.6842
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "x": 1,
+    "y": 1,
+    "participation_rate_pct": 15.384
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "x": 3,
+    "y": 3,
+    "participation_rate_pct": 27.5154
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "x": 2,
+    "y": 2,
+    "participation_rate_pct": 16.1245
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "x": 0,
+    "y": 1,
+    "participation_rate_pct": 18.2726
+  }
+]

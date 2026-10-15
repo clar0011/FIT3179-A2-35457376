@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heatmap of adult participation rates across states and selected activities.",
+  "data": { "url": "data/state-activity.json" },
+  "transform": [
+    {
+      "filter": {
+        "field": "activity",
+        "oneOf": [
+          "Bushwalking",
+          "Cycling",
+          "Canoeing / kayaking",
+          "Mountain biking",
+          "Surfing",
+          "Rock climbing / abseiling / caving"
+        ]
+      }
+    }
+  ],
+  "mark": { "type": "rect", "cornerRadius": 3 },
+  "encoding": {
+    "x": {
+      "field": "state_code",
+      "type": "ordinal",
+      "sort": ["WA", "NT", "SA", "QLD", "NSW", "ACT", "VIC", "TAS"],
+      "axis": {
+        "title": "State or territory",
+        "labelAngle": 0,
+        "labelLimit": 100
+      }
+    },
+    "y": {
+      "field": "activity",
+      "type": "ordinal",
+      "sort": [
+        "Bushwalking",
+        "Cycling",
+        "Canoeing / kayaking",
+        "Mountain biking",
+        "Surfing",
+        "Rock climbing / abseiling / caving"
+      ],
+      "axis": { "title": null, "labelLimit": 240 }
+    },
+    "color": {
+      "field": "participation_rate_pct",
+      "type": "quantitative",
+      "scale": { "scheme": "tealblues" },
+      "legend": { "title": "Participation (%)" }
+    },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "activity", "title": "Activity" },
+      {
+        "field": "participation_rate_pct",
+        "title": "Participation (%)",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  },
+  "width": 620,
+  "height": 605
+}

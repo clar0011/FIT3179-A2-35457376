@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "State-level adult bushwalking participation rate, 2025.",
+  "width": 580,
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "projection": {
+    "type": "mercator",
+    "scale": 460,
+    "center": [134, -27]
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/state-boundaries.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#edf2f4",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "url": "data/state-boundaries.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.state_code",
+          "from": {
+            "data": {
+              "url": "data/state-bushwalking.json"
+            },
+            "key": "state_code",
+            "fields": ["participation_rate_pct", "state"]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "color": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "tealblues",
+            "zero": false
+          },
+          "legend": {
+            "title": "Adults participating (%)",
+            "format": ".1f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.state_name",
+            "title": "State"
+          },
+          {
+            "field": "participation_rate_pct",
+            "title": "Bushwalking (%)",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

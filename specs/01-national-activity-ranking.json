@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Adult participation rates in selected outdoor and adventure activities, Australia, 2025.",
+  "data": { "url": "data/national-activity.json" },
+  "mark": { "type": "bar", "cornerRadiusEnd": 4, "color": "#167d78" },
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": { "title": null, "labelLimit": 250 }
+    },
+    "x": {
+      "field": "participation_rate_pct",
+      "type": "quantitative",
+      "axis": {
+        "title": "Adults participating at least once in 2025 (%)",
+        "format": ".0f"
+      },
+      "scale": { "zero": true }
+    },
+    "tooltip": [
+      { "field": "activity", "title": "Activity" },
+      {
+        "field": "participation_rate_pct",
+        "title": "Participation rate",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  },
+  "width": "container",
+  "height": 270,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}
+

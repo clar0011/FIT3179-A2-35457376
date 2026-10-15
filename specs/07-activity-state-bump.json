@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Rank of each state across selected activity participation rates; rank 1 is highest.",
+  "data": { "url": "data/activity-rank-bump.json" },
+  "width": "container",
+  "height": 350,
+  "mark": {
+    "type": "line",
+    "point": { "filled": true, "size": 70 },
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "activity",
+      "type": "ordinal",
+      "sort": [
+        "Bushwalking",
+        "Cycling",
+        "Canoeing / kayaking",
+        "Mountain biking",
+        "Surfing"
+      ],
+      "axis": { "title": null, "labelAngle": -20 }
+    },
+    "y": {
+      "field": "rank",
+      "type": "quantitative",
+      "scale": { "domain": [1, 8], "reverse": true },
+      "axis": {
+        "title": "State rank (1 = highest)",
+        "values": [1, 2, 3, 4, 5, 6, 7, 8]
+      }
+    },
+    "color": {
+      "field": "state_code",
+      "type": "nominal",
+      "scale": { "scheme": "tableau10" },
+      "legend": { "title": "State" }
+    },
+    "detail": { "field": "state_code" },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "activity", "title": "Activity" },
+      { "field": "rank", "title": "Rank" },
+      {
+        "field": "participation_rate_pct",
+        "title": "Rate (%)",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Year-ending June 2026 domestic trip change compared with year-ending June 2025 by state/territory. General tourism, not adventure-specific.",
+  "data": { "url": "data/domestic-tourism-annual.json" },
+  "width": "container",
+  "height": 280,
+  "mark": { "type": "bar", "cornerRadiusEnd": 4 },
+  "encoding": {
+    "y": {
+      "field": "state_code",
+      "type": "ordinal",
+      "sort": "-x",
+      "axis": { "title": null }
+    },
+    "x": {
+      "field": "trips_change_pct",
+      "type": "quantitative",
+      "axis": { "title": "Change in domestic trips (%)", "format": "+.0f" },
+      "scale": { "zero": true }
+    },
+    "color": {
+      "condition": { "test": "datum.trips_change_pct < 0", "value": "#d86f54" },
+      "value": "#167d78"
+    },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "trips_2025_million", "title": "Trips YE Jun 2025 (M)" },
+      { "field": "trips_2026_million", "title": "Trips YE Jun 2026 (M)" },
+      { "field": "trips_change_pct", "title": "Change (%)", "format": ".2f" }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "DM Sans, sans-serif",
+      "titleFont": "DM Sans, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    }
+  }
+}

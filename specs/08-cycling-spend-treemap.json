@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Treemap of reported cycling-inclusive trip expenditure by state/territory, 2024. Rectangles are sized proportionally to spend.",
+  "data": { "url": "data/cycling-spend-treemap.json" },
+  "width": "container",
+  "height": 280,
+  "mark": { "type": "rect", "stroke": "#ffffff", "strokeWidth": 3 },
+  "encoding": {
+    "x": {
+      "field": "x0",
+      "type": "quantitative",
+      "scale": { "domain": [0, 1] },
+      "axis": null
+    },
+    "x2": { "field": "x1" },
+    "y": {
+      "field": "y0",
+      "type": "quantitative",
+      "scale": { "domain": [0, 1] },
+      "axis": null
+    },
+    "y2": { "field": "y1" },
+    "color": {
+      "field": "spend_million",
+      "type": "quantitative",
+      "scale": { "scheme": "oranges" },
+      "legend": { "title": "Spend (A$M)" }
+    },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "spend_million", "title": "Spend (A$M)", "format": "," }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

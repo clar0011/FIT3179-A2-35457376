@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An evidence-led visual story about outdoor activity participation and cycling-inclusive tourism across Australia."
+    />
+    <title>Beyond the Beaten Track | Adventure Australia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="brand-mark">A2</span>
+        <span class="brand-name">ADVENTURE TOURISM</span>
+      </a>
+
+      <nav>
+        <a href="#participation">Participation</a>
+        <a href="#where">Where</a>
+        <a href="#tourism">Tourism</a>
+        <a href="#methods">Sources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span> OUTDOORS · PARTICIPATION · PLACE
+          </p>
+
+          <h1>Beyond the<br /><em>Beaten Track.</em></h1>
+
+          <p class="hero-deck">
+            Where Australians get outdoors — and what cycling-inclusive travel
+            reveals about the places they visit.
+          </p>
+
+          <div class="hero-meta">
+            <span>AUSTRALIA</span>
+            <span>8 STATES & TERRITORIES</span>
+            <span>14 VISUALISATIONS</span>
+          </div>
+        </div>
+      </section>
+      <section class="intro-band">
+        <div class="section-kicker">THE QUESTION</div>
+        <p>
+          Adventure can mean a bushwalk close to home, a ride through a regional
+          trail network, or a trip built around a cycling experience.
+          <strong
+            >Where is outdoor participation strongest, and how does it connect
+            with Australia's tourism economy?</strong
+          >
+        </p>
+        <div class="intro-note">
+          Two lenses, kept separate: <b>AusPlay</b> measures participation;
+          <b>Tourism Research Australia</b> measures trips, nights and spending.
+        </div>
+      </section>
+      <section id="participation" class="story-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">01 / THE PARTICIPANTS</p>
+            <h2>Outdoor life isn't one-size-fits-all.</h2>
+          </div>
+          <p class="section-intro">
+            AusPlay's 2025 estimates show how often adults take part in selected
+            outdoor activities. These are participation rates, not counts of
+            tourists.
+          </p>
+        </div>
+        <div class="insight-strip">
+          <div>
+            <span class="insight-number" id="metric-bush">—</span
+            ><span class="insight-label"
+              >adult participation in bushwalking nationally</span
+            >
+          </div>
+          <div>
+            <span class="insight-number" id="metric-cycle">—</span
+            ><span class="insight-label"
+              >adult participation in cycling nationally</span
+            >
+          </div>
+          <div>
+            <span class="insight-number" id="metric-kayak">—</span
+            ><span class="insight-label"
+              >adult participation in canoeing / kayaking nationally</span
+            >
+          </div>
+        </div>
+        <div class="chart-grid">
+          <article class="chart-card wide">
+            <div class="chart-head">
+              <span class="chart-number">CHART 01</span
+              ><span class="chart-type basic">BASIC · RANKED BAR</span>
+            </div>
+            <h3>Which outdoor activities reach the most adults?</h3>
+            <p>
+              Participation at least once during 2025; higher bars indicate a
+              larger share of adults.
+            </p>
+            <div id="chart-01" class="vis"></div>
+            <div class="chart-caption">
+              Source: AusPlay 2025, national Table 1. Adult = age 15 and over.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 02</span
+              ><span class="chart-type advanced">ADVANCED · CHOROPLETH</span>
+            </div>
+            <h3>Bushwalking participation, by state</h3>
+            <p>
+              Colour encodes the estimated adult participation rate. This is not
+              a map of walking-tourism destinations.
+            </p>
+            <div id="chart-02" class="vis"></div>
+            <div class="chart-caption">
+              State estimates from AusPlay 2025; boundary geometry simplified
+              for web delivery.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 03</span
+              ><span class="chart-type advanced">ADVANCED · HEATMAP</span>
+            </div>
+            <h3>A matrix of outdoor habits</h3>
+            <p>
+              Compare six activity rates across all eight states and territories
+              in one view.
+            </p>
+            <div id="chart-05" class="vis"></div>
+            <div class="chart-caption">
+              Darker cells indicate higher estimated participation. Hover for
+              the exact rate.
+            </div>
+          </article>
+          <article class="chart-card wide">
+            <div class="chart-head">
+              <span class="chart-number">CHART 04</span
+              ><span class="chart-type advanced">ADVANCED · DUMBBELL PLOT</span>
+            </div>
+            <h3>How much do states differ?</h3>
+            <p>
+              Each line connects the lowest and highest state estimates for an
+              activity. Endpoints are the states with those estimates; they do
+              not imply statistical significance.
+            </p>
+            <div id="chart-06" class="vis"></div>
+            <div class="chart-caption">
+              Read this as a descriptive range. Check the survey's estimate
+              reliability before making fine-grained claims.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 05</span
+              ><span class="chart-type advanced">ADVANCED · BUMP CHART</span>
+            </div>
+            <h3>Who ranks where?</h3>
+            <p>
+              State rankings across five activities. Rank 1 is the highest
+              participation rate for that activity.
+            </p>
+            <div id="chart-07" class="vis"></div>
+            <div class="chart-caption">
+              Rankings are descriptive and may be sensitive to survey
+              uncertainty.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 06</span
+              ><span class="chart-type basic">BASIC · AGE PROFILE</span>
+            </div>
+            <h3>Participation across age groups</h3>
+            <p>
+              National rates by age group help show that activity participation
+              differs through adulthood.
+            </p>
+            <div id="chart-11" class="vis"></div>
+            <div class="chart-caption">
+              Rates are within each age group, not the age composition of all
+              participants.
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="where" class="story-section dark-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 / PLACE & MOVEMENT</p>
+            <h2>From local activity to a trip.</h2>
+          </div>
+          <p class="section-intro">
+            Participation and travel are connected ideas, but they aren't the
+            same measure. The next charts focus on trips that included a cycling
+            activity in 2024.
+          </p>
+        </div>
+        <div class="big-stat-row">
+          <div class="big-stat">
+            <strong>4.6m</strong><span>trips involving cycling</span>
+          </div>
+          <div class="big-stat">
+            <strong>42m</strong><span>nights on those trips</span>
+          </div>
+          <div class="big-stat">
+            <strong>$6.0bn</strong><span>trip spend in Australia</span>
+          </div>
+          <p class="stat-caveat">
+            TRA counts the whole trip's nights and spending if any cycling
+            activity occurred. These figures are not the amount spent solely
+            because of cycling.
+          </p>
+        </div>
+        <div class="chart-grid">
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 07</span
+              ><span class="chart-type advanced">ADVANCED · SYMBOL MAP</span>
+            </div>
+            <h3>Where cycling-inclusive trips land</h3>
+            <p>
+              Circle size represents reported trips involving cycling by state
+              or territory in 2024.
+            </p>
+            <div id="chart-03" class="vis"></div>
+            <div class="chart-caption">
+              Source: TRA, Cycle Tourism in Australia (2025), state figure on p.
+              10. Values are rounded as published; state visits may overlap, so
+              do not sum them as if each trip visited only one state.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 08</span
+              ><span class="chart-type advanced"
+                >ADVANCED · TILE CARTOGRAM</span
+              >
+            </div>
+            <h3>Every state gets equal space</h3>
+            <p>
+              A tile-grid view gives smaller territories the same visual
+              footprint. Colour still shows bushwalking participation, not
+              tourism volume.
+            </p>
+            <div id="chart-04" class="vis"></div>
+            <div class="chart-caption">
+              Tile positions are schematic rather than geographic. Values are
+              AusPlay adult participation estimates.
+            </div>
+          </article>
+          <article class="chart-card wide">
+            <div class="chart-head">
+              <span class="chart-number">CHART 09</span
+              ><span class="chart-type advanced">ADVANCED · TREEMAP</span>
+            </div>
+            <h3>How cycling-trip spend is distributed</h3>
+            <p>
+              Rectangle area is proportional to reported cycling-inclusive trip
+              expenditure by state in 2024.
+            </p>
+            <div id="chart-08" class="vis"></div>
+            <div class="chart-caption">
+              Spend is for entire trips that included cycling. South Australia's
+              night figure was not legible in the source map, so it is omitted
+              from that measure elsewhere.
+            </div>
+          </article>
+          <article class="chart-card wide">
+            <div class="chart-head">
+              <span class="chart-number">CHART 10</span
+              ><span class="chart-type advanced"
+                >ADVANCED · PARALLEL COORDINATES</span
+              >
+            </div>
+            <h3>Different states, different profiles</h3>
+            <p>
+              Lines compare five state metrics after scaling each one from 0 to
+              100. This shows relative position within each metric, not equal
+              units.
+            </p>
+            <div id="chart-09" class="vis"></div>
+            <div class="chart-caption">
+              Hover for original values. Metrics include AusPlay participation
+              and TRA tourism indicators; they are complementary, not
+              interchangeable.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 11</span
+              ><span class="chart-type basic">BASIC · SCATTERPLOT</span>
+            </div>
+            <h3>Participation vs travel volume</h3>
+            <p>
+              A descriptive comparison of state cycling participation and
+              cycling-inclusive trip counts. It does not establish cause and
+              effect.
+            </p>
+            <div id="chart-13" class="vis"></div>
+            <div class="chart-caption">
+              The two measures cover different concepts and time frames;
+              interpret this as exploration, not a causal test.
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="tourism" class="story-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">03 / THE TOURISM ECONOMY</p>
+            <h2>The wider travel context matters.</h2>
+          </div>
+          <p class="section-intro">
+            General domestic tourism data can show the wider movement of trips
+            and spending. It cannot tell us how much of that activity was caused
+            by adventure experiences.
+          </p>
+        </div>
+        <div class="chart-grid">
+          <article class="chart-card wide">
+            <div class="chart-head">
+              <span class="chart-number">CHART 12</span
+              ><span class="chart-type advanced">ADVANCED · MOSAIC PLOT</span>
+            </div>
+            <h3>What domestic overnight trips spend money on</h3>
+            <p>
+              Each quarter is a column; the height of each category shows its
+              share of total expenditure for that quarter.
+            </p>
+            <div id="chart-10" class="vis"></div>
+            <div class="chart-caption">
+              General domestic overnight-trip expenditure, not adventure-tourism
+              expenditure. Category totals may not add exactly due to rounding.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 13</span
+              ><span class="chart-type basic">BASIC · LINE CHART</span>
+            </div>
+            <h3>Domestic trips and visitor nights</h3>
+            <p>
+              National totals across five quarters show how broad domestic
+              tourism changed over the period.
+            </p>
+            <div id="chart-12" class="vis"></div>
+            <div class="chart-caption">
+              Tourism Research Australia, Domestic Tourism Statistics, June
+              quarter 2025–June quarter 2026.
+            </div>
+          </article>
+          <article class="chart-card">
+            <div class="chart-head">
+              <span class="chart-number">CHART 14</span
+              ><span class="chart-type basic">BASIC · BAR CHART</span>
+            </div>
+            <h3>Annual change differs by state</h3>
+            <p>
+              Domestic trip totals and year-on-year change provide context for
+              state tourism conditions.
+            </p>
+            <div id="annual-change" class="vis"></div>
+            <div class="chart-caption">
+              Year ending June 2026 compared with year ending June 2025. This is
+              general domestic tourism.
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="takeaway">
+        <p class="section-kicker">THE TAKEAWAY</p>
+        <h2>One map can't tell the whole story.</h2>
+        <p>
+          Participation estimates show what people do; tourism statistics show
+          the journeys and spending associated with travel. Read together, they
+          reveal different dimensions of outdoor life in Australia — without
+          pretending that participation automatically means tourism.
+        </p>
+        <div class="takeaway-tags">
+          <span>PARTICIPATION ≠ TOURISM</span
+          ><span>STATE DIFFERENCES MATTER</span
+          ><span>MEASURE THE RIGHT THING</span>
+        </div>
+      </section>
+
+      <section id="methods" class="methods-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">METHODS & SOURCES</p>
+            <h2>What the data can — and can't — say.</h2>
+          </div>
+          <p class="section-intro">
+            The visual story uses public data and clearly separates
+            participation, cycling-inclusive trips and general domestic tourism.
+          </p>
+        </div>
+        <div class="method-grid">
+          <article>
+            <span class="method-index">01</span>
+            <h3>AusPlay · 2025</h3>
+            <p>
+              Adult activity participation rates and state-level estimates.
+              Adult means age 15+. Participation is at least once in the
+              previous 12 months. The 2024+ online method differs from the
+              2015–2023 phone method, so avoid direct long-run comparisons
+              across that break.
+            </p>
+            <a
+              href="https://www.ausport.gov.au/clearinghouse/research/ausplay/results/data-tables"
+              target="_blank"
+              rel="noopener"
+              >Official AusPlay tables ↗</a
+            >
+          </article>
+          <article>
+            <span class="method-index">02</span>
+            <h3>TRA · Cycle Tourism</h3>
+            <p>
+              Published October 2025, describing 2024 trips that included
+              cycling. All nights and spending from a trip are counted if
+              cycling occurred during it; the cycling activity's own causal
+              contribution cannot be isolated.
+            </p>
+            <a
+              href="https://www.tra.gov.au/en/research-reports/cycling-tourism-in-australia"
+              target="_blank"
+              rel="noopener"
+              >Read the report ↗</a
+            >
+          </article>
+          <article>
+            <span class="method-index">03</span>
+            <h3>TRA · Domestic tourism</h3>
+            <p>
+              State-level domestic trips, nights and expenditure. The National
+              Visitor Survey was replaced from January 2025, with backcast
+              figures used for comparisons. This source describes general
+              domestic tourism, not adventure-specific tourism.
+            </p>
+            <a href="https://www.tra.gov.au/" target="_blank" rel="noopener"
+              >Tourism Research Australia ↗</a
+            >
+          </article>
+          <article>
+            <span class="method-index">04</span>
+            <h3>Geography & reliability</h3>
+            <p>
+              State boundaries were supplied in GDA2020 and simplified to reduce
+              page weight. Small activity estimates can be uncertain; the charts
+              are descriptive and should not be used to claim meaningful
+              differences without checking the relevant margin-of-error
+              guidance.
+            </p>
+            <a
+              href="https://data.gov.au/data/dataset/geoscape-administrative-boundaries"
+              target="_blank"
+              rel="noopener"
+              >Boundary dataset ↗</a
+            >
+          </article>
+        </div>
+        <div class="limitations">
+          <b>Limitations to keep in mind</b>
+          <ul>
+            <li>
+              AusPlay participation does not establish whether an activity
+              occurred on a tourist trip.
+            </li>
+            <li>
+              TRA cycling-inclusive trips count the entire trip's spending and
+              nights, not only cycling-related spending.
+            </li>
+            <li>
+              General tourism totals are context, not an estimate of adventure
+              tourism.
+            </li>
+            <li>
+              Some cycling state values in the report are rounded. One South
+              Australian nights value was not readable in the source figure and
+              is deliberately omitted rather than guessed.
+            </li>
+            <li>
+              Relative margin-of-error guidance should be reviewed before making
+              fine-grained claims about small state estimates.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer>
+        <a class="brand" href="#">
+          <span class="brand-mark">A2</span>
+          <span class="brand-name">ADVENTURE TOURISM</span>
+        </a>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

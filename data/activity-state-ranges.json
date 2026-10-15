@@ -1,0 +1,50 @@
+[
+  {
+    "activity": "Bushwalking",
+    "lowest_state": "South Australia",
+    "lowest_rate": 15.384,
+    "highest_state": "Tasmania",
+    "highest_rate": 27.5154,
+    "range_pp": 12.13
+  },
+  {
+    "activity": "Cycling",
+    "lowest_state": "New South Wales",
+    "lowest_rate": 6.9667,
+    "highest_state": "Australian Capital Territory",
+    "highest_rate": 13.9876,
+    "range_pp": 7.02
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "lowest_state": "Victoria",
+    "lowest_rate": 0.786,
+    "highest_state": "Tasmania",
+    "highest_rate": 2.0761,
+    "range_pp": 1.29
+  },
+  {
+    "activity": "Mountain biking",
+    "lowest_state": "Victoria",
+    "lowest_rate": 0.5019,
+    "highest_state": "Tasmania",
+    "highest_rate": 1.7678,
+    "range_pp": 1.27
+  },
+  {
+    "activity": "Surfing",
+    "lowest_state": "Northern Territory",
+    "lowest_rate": 0.2166,
+    "highest_state": "Western Australia",
+    "highest_rate": 1.7618,
+    "range_pp": 1.55
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "lowest_state": "South Australia",
+    "lowest_rate": 0.1699,
+    "highest_state": "Australian Capital Territory",
+    "highest_rate": 0.5878,
+    "range_pp": 0.42
+  }
+]

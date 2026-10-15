@@ -1,0 +1,74 @@
+[
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "trips": 36000,
+    "nights": 674000,
+    "spend_million": 104,
+    "longitude": 133.5005,
+    "latitude": -21.2707
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "trips": 762000,
+    "nights": 8800000,
+    "spend_million": 1200,
+    "longitude": 143.0545,
+    "latitude": -19.9336
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "trips": 553000,
+    "nights": 6200000,
+    "spend_million": 799,
+    "longitude": 121.2074,
+    "latitude": -24.4635
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "trips": 266000,
+    "nights": null,
+    "spend_million": 229,
+    "longitude": 136.9529,
+    "latitude": -32.0287
+  },
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "trips": 1400000,
+    "nights": 13100000,
+    "spend_million": 1800,
+    "longitude": 146.4385,
+    "latitude": -32.8493
+  },
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "trips": 74000,
+    "nights": 776000,
+    "spend_million": 97,
+    "longitude": 148.9584,
+    "latitude": -35.5409
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "trips": 1500000,
+    "nights": 9800000,
+    "spend_million": 1500,
+    "longitude": 144.547,
+    "latitude": -36.5158
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "trips": 178000,
+    "nights": 1100000,
+    "spend_million": 160,
+    "longitude": 146.6681,
+    "latitude": -42.1451
+  }
+]
