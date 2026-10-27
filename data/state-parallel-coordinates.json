@@ -4,21 +4,21 @@
     "state_code": "NSW",
     "metric": "Cycling participation",
     "value": 6.9667,
-    "normalized": 0.0
+    "normalized": 60.75
   },
   {
     "state": "New South Wales",
     "state_code": "NSW",
     "metric": "Bushwalking participation",
     "value": 17.3577,
-    "normalized": 16.27
+    "normalized": 94.99
   },
   {
     "state": "New South Wales",
     "state_code": "NSW",
     "metric": "Cycling-tourism trips",
-    "value": 1400.0,
-    "normalized": 93.17
+    "value": 1478.0,
+    "normalized": 95.62
   },
   {
     "state": "New South Wales",
@@ -39,20 +39,20 @@
     "state_code": "VIC",
     "metric": "Cycling participation",
     "value": 9.0445,
-    "normalized": 29.59
+    "normalized": 84.96
   },
   {
     "state": "Victoria",
     "state_code": "VIC",
     "metric": "Bushwalking participation",
     "value": 16.1245,
-    "normalized": 6.1
+    "normalized": 88.24
   },
   {
     "state": "Victoria",
     "state_code": "VIC",
     "metric": "Cycling-tourism trips",
-    "value": 1500.0,
+    "value": 1544.0,
     "normalized": 100.0
   },
   {
@@ -74,21 +74,21 @@
     "state_code": "QLD",
     "metric": "Cycling participation",
     "value": 7.6098,
-    "normalized": 9.16
+    "normalized": 68.25
   },
   {
     "state": "Queensland",
     "state_code": "QLD",
     "metric": "Bushwalking participation",
     "value": 17.6842,
-    "normalized": 18.96
+    "normalized": 96.78
   },
   {
     "state": "Queensland",
     "state_code": "QLD",
     "metric": "Cycling-tourism trips",
     "value": 762.0,
-    "normalized": 49.59
+    "normalized": 48.14
   },
   {
     "state": "Queensland",
@@ -109,21 +109,21 @@
     "state_code": "SA",
     "metric": "Cycling participation",
     "value": 8.3645,
-    "normalized": 19.91
+    "normalized": 77.04
   },
   {
     "state": "South Australia",
     "state_code": "SA",
     "metric": "Bushwalking participation",
     "value": 15.384,
-    "normalized": 0.0
+    "normalized": 84.19
   },
   {
     "state": "South Australia",
     "state_code": "SA",
     "metric": "Cycling-tourism trips",
     "value": 266.0,
-    "normalized": 15.71
+    "normalized": 15.25
   },
   {
     "state": "South Australia",
@@ -144,21 +144,21 @@
     "state_code": "WA",
     "metric": "Cycling participation",
     "value": 10.3356,
-    "normalized": 47.98
+    "normalized": 100.0
   },
   {
     "state": "Western Australia",
     "state_code": "WA",
     "metric": "Bushwalking participation",
     "value": 18.2726,
-    "normalized": 23.81
+    "normalized": 100.0
   },
   {
     "state": "Western Australia",
     "state_code": "WA",
     "metric": "Cycling-tourism trips",
     "value": 553.0,
-    "normalized": 35.31
+    "normalized": 34.28
   },
   {
     "state": "Western Australia",
@@ -178,22 +178,22 @@
     "state": "Tasmania",
     "state_code": "TAS",
     "metric": "Cycling participation",
-    "value": 9.1427,
-    "normalized": 30.99
+    "value": 1.7517,
+    "normalized": 0.0
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "metric": "Bushwalking participation",
-    "value": 27.5154,
-    "normalized": 100.0
+    "value": 2.5252,
+    "normalized": 13.82
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "metric": "Cycling-tourism trips",
     "value": 178.0,
-    "normalized": 9.7
+    "normalized": 9.42
   },
   {
     "state": "Tasmania",
@@ -213,15 +213,15 @@
     "state": "Northern Territory",
     "state_code": "NT",
     "metric": "Cycling participation",
-    "value": 9.9364,
-    "normalized": 42.3
+    "value": 4.3098,
+    "normalized": 29.8
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "metric": "Bushwalking participation",
-    "value": 18.9571,
-    "normalized": 29.45
+    "value": 0.0,
+    "normalized": 0.0
   },
   {
     "state": "Northern Territory",
@@ -248,22 +248,22 @@
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "metric": "Cycling participation",
-    "value": 13.9876,
-    "normalized": 100.0
+    "value": 2.2214,
+    "normalized": 5.47
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "metric": "Bushwalking participation",
-    "value": 26.847,
-    "normalized": 94.49
+    "value": 1.1158,
+    "normalized": 6.11
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "metric": "Cycling-tourism trips",
     "value": 74.0,
-    "normalized": 2.6
+    "normalized": 2.52
   },
   {
     "state": "Australian Capital Territory",

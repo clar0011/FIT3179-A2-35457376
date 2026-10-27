@@ -106,12 +106,11 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 01</span
-              ><span class="chart-type basic">BASIC · RANKED BAR</span>
+              ><span class="chart-type basic">ADVANCED · LOLLIPOP CHART</span>
             </div>
             <h3>Which outdoor activities reach the most adults?</h3>
             <p>
-              Participation at least once during 2025; higher bars indicate a
-              larger share of adults.
+              Participation at least once during 2025; the dot marks each rate and the stem anchors it to zero.
             </p>
             <div id="chart-01" class="vis"></div>
             <div class="chart-caption">
@@ -137,17 +136,15 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 03</span
-              ><span class="chart-type advanced">ADVANCED · HEATMAP</span>
+              ><span class="chart-type advanced">ADVANCED · BUTTERFLY CHART</span>
             </div>
-            <h3>A matrix of outdoor habits</h3>
+            <h3>Cycling vs bushwalking across states</h3>
             <p>
-              Compare six activity rates across all eight states and territories
-              in one view.
+              Compare two popular outdoor activities across all eight states and territories.
             </p>
             <div id="chart-05" class="vis"></div>
             <div class="chart-caption">
-              Darker cells indicate higher estimated participation. Hover for
-              the exact rate.
+              Bars extend from a shared centre: cycling to the left, bushwalking to the right. Hover for exact rates.
             </div>
           </article>
           <article class="chart-card wide">
@@ -268,19 +265,16 @@
           </article>
           <article class="chart-card wide">
             <div class="chart-head">
-              <span class="chart-number">CHART 09</span
-              ><span class="chart-type advanced">ADVANCED · TREEMAP</span>
+              <span class="chart-number">CHART 08</span
+              ><span class="chart-type advanced">ADVANCED · LOLLIPOP CHART</span>
             </div>
-            <h3>How cycling-trip spend is distributed</h3>
+            <h3>Which states report the most cycling-trip expenditure?</h3>
             <p>
-              Rectangle area is proportional to reported cycling-inclusive trip
-              expenditure by state in 2024.
+              States are ranked by reported expenditure on trips that included cycling. The values cover whole trips, not only money spent on cycling activities.
             </p>
             <div id="chart-08" class="vis"></div>
             <div class="chart-caption">
-              Spend is for entire trips that included cycling. South Australia's
-              night figure was not legible in the source map, so it is omitted
-              from that measure elsewhere.
+              Source: TRA, Cycle Tourism in Australia (2025), state figures. Published state values are rounded; trips may include activities beyond cycling.
             </div>
           </article>
           <article class="chart-card wide">
@@ -338,17 +332,15 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 12</span
-              ><span class="chart-type advanced">ADVANCED · MOSAIC PLOT</span>
+              ><span class="chart-type advanced">ADVANCED · SANKEY DIAGRAM</span>
             </div>
-            <h3>What domestic overnight trips spend money on</h3>
+            <h3>Where overnight trips go, by reason for travel</h3>
             <p>
-              Each quarter is a column; the height of each category shows its
-              share of total expenditure for that quarter.
+              Ribbons connect stopover purpose to destination state or territory. Wider ribbons represent more overnight trips in the year ending December 2024.
             </p>
-            <div id="chart-10" class="vis"></div>
+            <div id="chart-10" class="vis sankey-vis" role="img" aria-label="Sankey diagram connecting overnight trip purpose to Australian destination state or territory"></div>
             <div class="chart-caption">
-              General domestic overnight-trip expenditure, not adventure-tourism
-              expenditure. Category totals may not add exactly due to rounding.
+              Source: Tourism Research Australia, National Visitor Survey, updated March 2025. Trips are estimates in thousands. The Northern Territory value for Other / not asked was not published and is omitted.
             </div>
           </article>
           <article class="chart-card">
@@ -370,17 +362,15 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 14</span
-              ><span class="chart-type basic">BASIC · BAR CHART</span>
+              ><span class="chart-type advanced">ADVANCED · SLOPE CHART</span>
             </div>
-            <h3>Annual change differs by state</h3>
+            <h3>How did domestic trips change year to year?</h3>
             <p>
-              Domestic trip totals and year-on-year change provide context for
-              state tourism conditions.
+              Each line connects the same state’s domestic trip totals for the years ending June 2025 and June 2026.
             </p>
             <div id="annual-change" class="vis"></div>
             <div class="chart-caption">
-              Year ending June 2026 compared with year ending June 2025. This is
-              general domestic tourism.
+              Year-ending June totals from TRA. This is general domestic tourism, not adventure-specific travel.
             </div>
           </article>
         </div>

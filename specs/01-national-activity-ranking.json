@@ -1,35 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Adult participation rates in selected outdoor and adventure activities, Australia, 2025.",
-  "data": { "url": "data/national-activity.json" },
-  "mark": { "type": "bar", "cornerRadiusEnd": 4, "color": "#167d78" },
-  "encoding": {
-    "y": {
-      "field": "activity",
-      "type": "nominal",
-      "sort": "-x",
-      "axis": { "title": null, "labelLimit": 250 }
-    },
-    "x": {
-      "field": "participation_rate_pct",
-      "type": "quantitative",
-      "axis": {
-        "title": "Adults participating at least once in 2025 (%)",
-        "format": ".0f"
-      },
-      "scale": { "zero": true }
-    },
-    "tooltip": [
-      { "field": "activity", "title": "Activity" },
-      {
-        "field": "participation_rate_pct",
-        "title": "Participation rate",
-        "format": ".2f"
-      }
-    ]
+  "data": {
+    "url": "data/national-activity.json"
   },
   "config": {
-    "view": { "stroke": null },
+    "view": {
+      "stroke": null
+    },
     "axis": {
       "labelFont": "Inter, Arial, sans-serif",
       "titleFont": "Inter, Arial, sans-serif",
@@ -51,6 +28,83 @@
   "autosize": {
     "type": "fit",
     "contains": "padding"
-  }
+  },
+  "description": "Lollipop chart ranking adult participation rates in selected outdoor and adventure activities, Australia, 2025.",
+  "layer": [
+    {
+      "data": {
+        "url": "data/national-activity.json"
+      },
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 2,
+        "color": "#b7d8d4"
+      },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": "-x",
+          "axis": {
+            "title": null,
+            "labelLimit": 270
+          }
+        },
+        "x": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "scale": {
+            "zero": true
+          }
+        },
+        "x2": {
+          "datum": 0
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/national-activity.json"
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 105,
+        "color": "#167d78"
+      },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": "-x",
+          "axis": {
+            "title": null,
+            "labelLimit": 270
+          }
+        },
+        "x": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "axis": {
+            "title": "Adults participating at least once in 2025 (%)",
+            "format": ".0f"
+          },
+          "scale": {
+            "zero": true
+          }
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "participation_rate_pct",
+            "title": "Participation rate",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ]
 }
-

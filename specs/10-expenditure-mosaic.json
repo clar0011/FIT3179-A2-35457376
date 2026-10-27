@@ -1,54 +1,85 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Mosaic plot of the composition of domestic overnight-trip expenditure by category and quarter. Each quarter column totals 100%; this is general domestic tourism, not adventure-specific spend.",
-  "data": { "url": "data/expenditure-mosaic.json" },
+  "description": "Sunburst-style nested radial chart of latest-quarter domestic overnight-trip expenditure. Inner ring groups are analytical groupings created for this visualisation; outer segments are the original TRA expenditure categories. This is general domestic tourism, not adventure-specific expenditure.",
+  "data": {
+    "url": "data/expenditure-sunburst.json"
+  },
   "width": "container",
   "height": 360,
-  "mark": { "type": "rect", "stroke": "#ffffff", "strokeWidth": 0.7 },
+  "mark": {
+    "type": "arc",
+    "stroke": "#ffffff",
+    "strokeWidth": 1.2
+  },
   "encoding": {
-    "x": {
-      "field": "x0",
+    "theta": {
+      "field": "start_angle",
       "type": "quantitative",
-      "scale": { "domain": [0, 1] },
-      "axis": null
+      "scale": null
     },
-    "x2": { "field": "x1" },
-    "y": {
-      "field": "y0",
+    "theta2": {
+      "field": "end_angle"
+    },
+    "radius": {
+      "field": "outer_radius",
       "type": "quantitative",
-      "scale": { "domain": [0, 1], "reverse": true },
-      "axis": null
+      "scale": {
+        "domain": [
+          0,
+          165
+        ],
+        "range": [
+          0,
+          165
+        ]
+      }
     },
-    "y2": { "field": "y1" },
+    "radius2": {
+      "field": "inner_radius"
+    },
     "color": {
-      "field": "category",
+      "field": "node",
       "type": "nominal",
-      "scale": { "scheme": "tableau20" },
-      "legend": { "title": "Expenditure category", "columns": 2 }
+      "scale": {
+        "scheme": "tableau20"
+      },
+      "legend": null
     },
     "tooltip": [
-      { "field": "quarter", "title": "Quarter" },
-      { "field": "category", "title": "Category" },
-      { "field": "spend_million", "title": "Spend (A$M)", "format": "," },
-      { "field": "share_pct", "title": "Quarter share (%)", "format": ".1f" }
+      {
+        "field": "level",
+        "title": "Ring"
+      },
+      {
+        "field": "node",
+        "title": "Category / group"
+      },
+      {
+        "field": "parent",
+        "title": "Parent group"
+      },
+      {
+        "field": "value_million",
+        "title": "Expenditure (A$M)",
+        "format": ",.1f"
+      },
+      {
+        "field": "share_pct",
+        "title": "Share of total (%)",
+        "format": ".1f"
+      }
     ]
   },
+  "view": {
+    "stroke": null
+  },
   "config": {
-    "view": { "stroke": null },
-    "axis": {
-      "labelFont": "Inter, Arial, sans-serif",
-      "titleFont": "Inter, Arial, sans-serif",
-      "labelColor": "#52606d",
-      "titleColor": "#243b53",
-      "gridColor": "#e7edf1",
-      "domainColor": "#c9d4dc",
-      "tickColor": "#c9d4dc"
+    "view": {
+      "stroke": null
     },
-    "legend": {
-      "labelFont": "Inter, Arial, sans-serif",
-      "titleFont": "Inter, Arial, sans-serif",
-      "labelColor": "#52606d",
-      "titleColor": "#243b53"
+    "axis": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "Manrope, Arial, sans-serif"
     }
   }
 }

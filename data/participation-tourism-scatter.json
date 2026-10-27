@@ -3,13 +3,13 @@
     "state": "New South Wales",
     "state_code": "NSW",
     "cycling_participation_pct": 6.9667,
-    "cycling_tourism_trips": 1400000
+    "cycling_tourism_trips": 1478000
   },
   {
     "state": "Victoria",
     "state_code": "VIC",
     "cycling_participation_pct": 9.0445,
-    "cycling_tourism_trips": 1500000
+    "cycling_tourism_trips": 1544000
   },
   {
     "state": "Queensland",
@@ -32,19 +32,19 @@
   {
     "state": "Tasmania",
     "state_code": "TAS",
-    "cycling_participation_pct": 9.1427,
+    "cycling_participation_pct": 1.7517,
     "cycling_tourism_trips": 178000
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
-    "cycling_participation_pct": 9.9364,
+    "cycling_participation_pct": 4.3098,
     "cycling_tourism_trips": 36000
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
-    "cycling_participation_pct": 13.9876,
+    "cycling_participation_pct": 2.2214,
     "cycling_tourism_trips": 74000
   }
 ]

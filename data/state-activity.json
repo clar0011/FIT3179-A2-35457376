@@ -4,48 +4,48 @@
     "state_code": "ACT",
     "activity": "Bushwalking",
     "activity_raw": "Bush walking",
-    "participation_rate_pct": 26.847,
-    "participants_est": 106848
+    "participation_rate_pct": 1.1158,
+    "participants_est": 932
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 13.9876,
-    "participants_est": 55669
+    "participation_rate_pct": 2.2214,
+    "participants_est": 1854
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "activity": "Canoeing / kayaking",
     "activity_raw": "Canoeing/Kayaking",
-    "participation_rate_pct": 0.9431,
-    "participants_est": 3753
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "activity": "Mountain biking",
     "activity_raw": "Mountain biking",
-    "participation_rate_pct": 1.281,
-    "participants_est": 5098
+    "participation_rate_pct": 0.3715,
+    "participants_est": 310
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "activity": "Surfing",
     "activity_raw": "Surfing",
-    "participation_rate_pct": 0.5707,
-    "participants_est": 2272
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Australian Capital Territory",
     "state_code": "ACT",
     "activity": "Rock climbing / abseiling / caving",
     "activity_raw": "Rock climbing/Abseiling/Caving",
-    "participation_rate_pct": 0.5878,
-    "participants_est": 2339
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "New South Wales",
@@ -100,48 +100,48 @@
     "state_code": "NT",
     "activity": "Bushwalking",
     "activity_raw": "Bush walking",
-    "participation_rate_pct": 18.9571,
-    "participants_est": 39501
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 9.9364,
-    "participants_est": 20705
+    "participation_rate_pct": 4.3098,
+    "participants_est": 2285
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "activity": "Canoeing / kayaking",
     "activity_raw": "Canoeing/Kayaking",
-    "participation_rate_pct": 1.7144,
-    "participants_est": 3572
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "activity": "Mountain biking",
     "activity_raw": "Mountain biking",
-    "participation_rate_pct": 1.0265,
-    "participants_est": 2139
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "activity": "Surfing",
     "activity_raw": "Surfing",
-    "participation_rate_pct": 0.2166,
-    "participants_est": 451
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Northern Territory",
     "state_code": "NT",
     "activity": "Rock climbing / abseiling / caving",
     "activity_raw": "Rock climbing/Abseiling/Caving",
-    "participation_rate_pct": 0.5694,
-    "participants_est": 1187
+    "participation_rate_pct": 0.0,
+    "participants_est": 0
   },
   {
     "state": "Queensland",
@@ -244,48 +244,48 @@
     "state_code": "TAS",
     "activity": "Bushwalking",
     "activity_raw": "Bush walking",
-    "participation_rate_pct": 27.5154,
-    "participants_est": 132990
+    "participation_rate_pct": 2.5252,
+    "participants_est": 2339
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 9.1427,
-    "participants_est": 44189
+    "participation_rate_pct": 1.7517,
+    "participants_est": 1622
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "activity": "Canoeing / kayaking",
     "activity_raw": "Canoeing/Kayaking",
-    "participation_rate_pct": 2.0761,
-    "participants_est": 10034
+    "participation_rate_pct": 0.3049,
+    "participants_est": 282
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "activity": "Mountain biking",
     "activity_raw": "Mountain biking",
-    "participation_rate_pct": 1.7678,
-    "participants_est": 8544
+    "participation_rate_pct": 0.8703,
+    "participants_est": 806
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "activity": "Surfing",
     "activity_raw": "Surfing",
-    "participation_rate_pct": 1.3585,
-    "participants_est": 6566
+    "participation_rate_pct": 0.9557,
+    "participants_est": 885
   },
   {
     "state": "Tasmania",
     "state_code": "TAS",
     "activity": "Rock climbing / abseiling / caving",
     "activity_raw": "Rock climbing/Abseiling/Caving",
-    "participation_rate_pct": 0.4583,
-    "participants_est": 2215
+    "participation_rate_pct": 0.5436,
+    "participants_est": 503
   },
   {
     "state": "Victoria",

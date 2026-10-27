@@ -644,3 +644,28 @@ footer a {
   }
 }
 
+
+
+/* Purpose-to-destination Sankey diagram */
+.sankey-vis { overflow-x: auto; }
+.sankey-svg { display:block; width:100%; height:auto; min-width:680px; overflow:visible; }
+.sankey-label { font: 500 12px 'DM Sans', Arial, sans-serif; fill:#294653; }
+.sankey-value { font: 500 11px 'DM Sans', Arial, sans-serif; fill:#71818a; }
+.sankey-heading { font: 700 11px 'DM Sans', Arial, sans-serif; letter-spacing:1.3px; fill:#71818a; }
+.sankey-legend { font: 500 10px 'DM Sans', Arial, sans-serif; fill:#52606d; }
+.sankey-link { transition: opacity .15s ease; cursor: crosshair; }
+.sankey-link.muted { opacity:.10; }
+.sankey-link.active { opacity:.95; }
+.sankey-hint { margin:8px 0 0; color:#71818a; font-size:.82rem; }
+
+
+/* Responsive map sizing and compact Sankey layout */
+#chart-02, #chart-03, #chart-04 { min-height: 0; }
+#chart-02 .vega-embed, #chart-03 .vega-embed, #chart-04 .vega-embed { width: 100%; }
+#chart-02 svg, #chart-03 svg, #chart-04 svg { max-height: 340px; }
+.sankey-vis { overflow-x: auto; overflow-y: hidden; }
+.sankey-svg { display:block; width:100%; height:auto; min-width:760px; overflow:visible; }
+.sankey-label { font: 500 11px 'DM Sans', Arial, sans-serif; fill:#294653; }
+.sankey-value { font: 500 10px 'DM Sans', Arial, sans-serif; fill:#71818a; }
+.sankey-heading { font: 700 10px 'DM Sans', Arial, sans-serif; letter-spacing:1.2px; fill:#71818a; }
+@media (max-width: 800px) { .sankey-svg { min-width:760px; } #chart-02 svg, #chart-03 svg, #chart-04 svg { max-height: 300px; } }

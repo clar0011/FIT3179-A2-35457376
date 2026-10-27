@@ -1,44 +1,151 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Year-ending June 2026 domestic trip change compared with year-ending June 2025 by state/territory. General tourism, not adventure-specific.",
-  "data": { "url": "data/domestic-tourism-annual.json" },
-  "width": "container",
-  "height": 280,
-  "mark": { "type": "bar", "cornerRadiusEnd": 4 },
-  "encoding": {
-    "y": {
-      "field": "state_code",
-      "type": "ordinal",
-      "sort": "-x",
-      "axis": { "title": null }
-    },
-    "x": {
-      "field": "trips_change_pct",
-      "type": "quantitative",
-      "axis": { "title": "Change in domestic trips (%)", "format": "+.0f" },
-      "scale": { "zero": true }
-    },
-    "color": {
-      "condition": { "test": "datum.trips_change_pct < 0", "value": "#d86f54" },
-      "value": "#167d78"
-    },
-    "tooltip": [
-      { "field": "state", "title": "State" },
-      { "field": "trips_2025_million", "title": "Trips YE Jun 2025 (M)" },
-      { "field": "trips_2026_million", "title": "Trips YE Jun 2026 (M)" },
-      { "field": "trips_change_pct", "title": "Change (%)", "format": ".2f" }
-    ]
+  "description": "Slope chart comparing state and territory domestic trip totals for the years ending June 2025 and June 2026. General tourism context, not adventure-specific.",
+  "data": {
+    "url": "data/domestic-tourism-slope.json"
   },
+  "width": "container",
+  "height": 300,
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "opacity": 0.82
+      },
+      "encoding": {
+        "x": {
+          "field": "period",
+          "type": "ordinal",
+          "sort": [
+            "YE Jun 2025",
+            "YE Jun 2026"
+          ],
+          "axis": {
+            "title": null,
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "trips_million",
+          "type": "quantitative",
+          "axis": {
+            "title": "Domestic trips (millions)",
+            "format": ".0f"
+          },
+          "scale": {
+            "zero": false
+          }
+        },
+        "color": {
+          "field": "state_code",
+          "type": "nominal",
+          "scale": {
+            "scheme": "tableau10"
+          },
+          "legend": {
+            "title": "State"
+          }
+        },
+        "detail": {
+          "field": "state_code"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "period",
+            "title": "Period"
+          },
+          {
+            "field": "trips_million",
+            "title": "Domestic trips (millions)",
+            "format": ".1f"
+          },
+          {
+            "field": "change_pct",
+            "title": "Year-on-year change (%)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 70
+      },
+      "encoding": {
+        "x": {
+          "field": "period",
+          "type": "ordinal",
+          "sort": [
+            "YE Jun 2025",
+            "YE Jun 2026"
+          ]
+        },
+        "y": {
+          "field": "trips_million",
+          "type": "quantitative",
+          "scale": {
+            "zero": false
+          }
+        },
+        "color": {
+          "field": "state_code",
+          "type": "nominal",
+          "scale": {
+            "scheme": "tableau10"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "period",
+            "title": "Period"
+          },
+          {
+            "field": "trips_million",
+            "title": "Domestic trips (millions)",
+            "format": ".1f"
+          },
+          {
+            "field": "change_pct",
+            "title": "Year-on-year change (%)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    }
+  ],
   "config": {
-    "view": { "stroke": null },
+    "view": {
+      "stroke": null
+    },
     "axis": {
-      "labelFont": "DM Sans, sans-serif",
-      "titleFont": "DM Sans, sans-serif",
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
       "labelColor": "#52606d",
       "titleColor": "#243b53",
       "gridColor": "#e7edf1",
       "domainColor": "#c9d4dc",
       "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
     }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
   }
 }

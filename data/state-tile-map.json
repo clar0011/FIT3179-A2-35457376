@@ -4,7 +4,7 @@
     "state_code": "ACT",
     "x": 3,
     "y": 1,
-    "participation_rate_pct": 26.847
+    "participation_rate_pct": 1.1158
   },
   {
     "state": "New South Wales",
@@ -18,7 +18,7 @@
     "state_code": "NT",
     "x": 1,
     "y": 0,
-    "participation_rate_pct": 18.9571
+    "participation_rate_pct": 0.0
   },
   {
     "state": "Queensland",
@@ -39,7 +39,7 @@
     "state_code": "TAS",
     "x": 3,
     "y": 3,
-    "participation_rate_pct": 27.5154
+    "participation_rate_pct": 2.5252
   },
   {
     "state": "Victoria",

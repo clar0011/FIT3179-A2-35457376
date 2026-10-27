@@ -4,8 +4,8 @@
     "state_code": "ACT",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 13.9876,
-    "participants_est": 55669,
+    "participation_rate_pct": 2.2214,
+    "participants_est": 1854,
     "longitude": 148.9584,
     "latitude": -35.5409
   },
@@ -24,8 +24,8 @@
     "state_code": "NT",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 9.9364,
-    "participants_est": 20705,
+    "participation_rate_pct": 4.3098,
+    "participants_est": 2285,
     "longitude": 133.5005,
     "latitude": -21.2707
   },
@@ -54,8 +54,8 @@
     "state_code": "TAS",
     "activity": "Cycling",
     "activity_raw": "Cycling",
-    "participation_rate_pct": 9.1427,
-    "participants_est": 44189,
+    "participation_rate_pct": 1.7517,
+    "participants_est": 1622,
     "longitude": 146.6681,
     "latitude": -42.1451
   },
