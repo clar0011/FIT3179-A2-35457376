@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Ranked lollipop chart of reported cycling-inclusive trip expenditure by state and territory. Source values are rounded as published.",
+  "data": {
+    "url": "data/cycling-spend-lollipop.json"
+  },
+  "width": "container",
+  "height": 300,
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "ordinal",
+      "sort": "-x",
+      "axis": {
+        "title": null,
+        "labelLimit": 190
+      }
+    },
+    "x": {
+      "field": "spend_million",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          2000
+        ]
+      },
+      "axis": {
+        "title": "Reported trip expenditure (A$ million)",
+        "format": ",.0f"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "title": "State / territory"
+      },
+      {
+        "field": "spend_million",
+        "title": "Reported expenditure (A$M)",
+        "format": ",.0f"
+      },
+      {
+        "field": "trips",
+        "title": "Cycling-inclusive trips",
+        "format": ",.0f"
+      },
+      {
+        "field": "nights",
+        "title": "Nights on those trips",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 3,
+        "color": "#b8c8d1"
+      },
+      "encoding": {
+        "x": {
+          "datum": 0
+        },
+        "x2": {
+          "field": "spend_million"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 115,
+        "color": "#167d78"
+      },
+      "encoding": {
+        "x": {
+          "field": "spend_million",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "Manrope, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    }
+  }
+}

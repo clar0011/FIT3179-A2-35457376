@@ -1,0 +1,140 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans, Arial, sans-serif",
+    "axis": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": 600,
+      "labelColor": "#4a5b60",
+      "titleColor": "#183238",
+      "gridColor": "#e6ebe9",
+      "domainColor": "#c3cdcc",
+      "tickColor": "#c3cdcc",
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": 600,
+      "labelColor": "#4a5b60",
+      "titleColor": "#183238",
+      "symbolSize": 140
+    },
+    "header": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 14,
+      "labelFontWeight": 700,
+      "labelColor": "#183238",
+      "title": null
+    }
+  },
+  "data": {
+    "url": "data/state-tile-map.json"
+  },
+  "height": 300,
+  "encoding": {
+    "x": {
+      "field": "x",
+      "type": "ordinal",
+      "axis": null
+    },
+    "y": {
+      "field": "y",
+      "type": "ordinal",
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fff",
+        "strokeWidth": 4,
+        "cornerRadius": 6
+      },
+      "encoding": {
+        "color": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "scale": {
+            "range": [
+              "#dff1ef",
+              "#0a4a4d"
+            ]
+          },
+          "legend": {
+            "title": "Adults bushwalking (%)",
+            "format": ".0f",
+            "orient": "bottom",
+            "gradientLength": 260
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "hv",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.35
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "participation_rate_pct",
+            "title": "Bushwalking (%)",
+            "format": ".1f"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hv",
+          "select": {
+            "type": "point",
+            "fields": [
+              "state_code"
+            ],
+            "on": "mouseover",
+            "clear": "dblclick"
+          }
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 17,
+        "fontWeight": 800
+      },
+      "encoding": {
+        "text": {
+          "field": "state_code"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.participation_rate_pct>9",
+            "value": "#fff"
+          },
+          "value": "#183238"
+        }
+      }
+    }
+  ],
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  }
+}

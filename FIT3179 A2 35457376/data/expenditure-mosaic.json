@@ -1,0 +1,952 @@
+[
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Domestic airfares",
+    "spend_million": 4180.608,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.0,
+    "y1": 0.11493277,
+    "share_pct": 11.49
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Package Tours",
+    "spend_million": 398.305,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.11493277,
+    "y1": 0.12588292,
+    "share_pct": 1.1
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Organised Tours",
+    "spend_million": 340.541,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.12588292,
+    "y1": 0.13524503,
+    "share_pct": 0.94
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Rental vehicles",
+    "spend_million": 510.018,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.13524503,
+    "y1": 0.14926638,
+    "share_pct": 1.4
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Petrol",
+    "spend_million": 5369.964,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.14926638,
+    "y1": 0.29689678,
+    "share_pct": 14.76
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Vehicle maintenance/repairs",
+    "spend_million": 396.263,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.29689678,
+    "y1": 0.30779079,
+    "share_pct": 1.09
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Taxi",
+    "spend_million": 383.607,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.30779079,
+    "y1": 0.31833687,
+    "share_pct": 1.05
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Other local public transport",
+    "spend_million": 225.753,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.31833687,
+    "y1": 0.32454325,
+    "share_pct": 0.62
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Long distance public transport",
+    "spend_million": 946.293,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.32454325,
+    "y1": 0.35055862,
+    "share_pct": 2.6
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Accommodation",
+    "spend_million": 6798.264,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.35055862,
+    "y1": 0.53745566,
+    "share_pct": 18.69
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Groceries for self-catering",
+    "spend_million": 2029.932,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.53745566,
+    "y1": 0.59326231,
+    "share_pct": 5.58
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 1891.418,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.59326231,
+    "y1": 0.64526094,
+    "share_pct": 5.2
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Takeaways and restaurant meals",
+    "spend_million": 6475.299,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.64526094,
+    "y1": 0.82327907,
+    "share_pct": 17.8
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Shopping / gifts /souvenirs",
+    "spend_million": 4124.376,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.82327907,
+    "y1": 0.93666592,
+    "share_pct": 11.34
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Entertainment",
+    "spend_million": 1240.756,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.93666592,
+    "y1": 0.97077663,
+    "share_pct": 3.41
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Gambling",
+    "spend_million": 155.736,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.97077663,
+    "y1": 0.9750581,
+    "share_pct": 0.43
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Education fees",
+    "spend_million": 85.402,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.9750581,
+    "y1": 0.97740596,
+    "share_pct": 0.23
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 172.184,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.97740596,
+    "y1": 0.98213963,
+    "share_pct": 0.47
+  },
+  {
+    "quarter": "Jun Qtr 2025",
+    "category": "Other expenditure nfd",
+    "spend_million": 649.66,
+    "x0": 0.0,
+    "x1": 0.2,
+    "y0": 0.98213963,
+    "y1": 1.0,
+    "share_pct": 1.79
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Domestic airfares",
+    "spend_million": 4604.929,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.0,
+    "y1": 0.12148231,
+    "share_pct": 12.15
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Package Tours",
+    "spend_million": 468.343,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.12148231,
+    "y1": 0.13383764,
+    "share_pct": 1.24
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Organised Tours",
+    "spend_million": 333.185,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.13383764,
+    "y1": 0.14262737,
+    "share_pct": 0.88
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Rental vehicles",
+    "spend_million": 541.579,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.14262737,
+    "y1": 0.15691473,
+    "share_pct": 1.43
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Petrol",
+    "spend_million": 5636.841,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.15691473,
+    "y1": 0.30561984,
+    "share_pct": 14.87
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Vehicle maintenance/repairs",
+    "spend_million": 522.353,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.30561984,
+    "y1": 0.3194,
+    "share_pct": 1.38
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Taxi",
+    "spend_million": 427.877,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.3194,
+    "y1": 0.33068779,
+    "share_pct": 1.13
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Other local public transport",
+    "spend_million": 230.879,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.33068779,
+    "y1": 0.33677859,
+    "share_pct": 0.61
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Long distance public transport",
+    "spend_million": 985.788,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.33677859,
+    "y1": 0.3627846,
+    "share_pct": 2.6
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Accommodation",
+    "spend_million": 6789.373,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.3627846,
+    "y1": 0.54189458,
+    "share_pct": 17.91
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Groceries for self-catering",
+    "spend_million": 2185.117,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.54189458,
+    "y1": 0.59954,
+    "share_pct": 5.76
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 1928.27,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.59954,
+    "y1": 0.65040956,
+    "share_pct": 5.09
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Takeaways and restaurant meals",
+    "spend_million": 6625.926,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.65040956,
+    "y1": 0.82520765,
+    "share_pct": 17.48
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Shopping / gifts /souvenirs",
+    "spend_million": 4186.649,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.82520765,
+    "y1": 0.93565535,
+    "share_pct": 11.04
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Entertainment",
+    "spend_million": 1227.639,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.93565535,
+    "y1": 0.96804161,
+    "share_pct": 3.24
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Gambling",
+    "spend_million": 191.331,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.96804161,
+    "y1": 0.9730891,
+    "share_pct": 0.5
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Education fees",
+    "spend_million": 77.348,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.9730891,
+    "y1": 0.97512961,
+    "share_pct": 0.2
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 188.858,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.97512961,
+    "y1": 0.98011186,
+    "share_pct": 0.5
+  },
+  {
+    "quarter": "Sep Qtr 2025",
+    "category": "Other expenditure nfd",
+    "spend_million": 753.883,
+    "x0": 0.2,
+    "x1": 0.4,
+    "y0": 0.98011186,
+    "y1": 1.0,
+    "share_pct": 1.99
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Domestic airfares",
+    "spend_million": 4744.166,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.0,
+    "y1": 0.11870982,
+    "share_pct": 11.87
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Package Tours",
+    "spend_million": 537.066,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.11870982,
+    "y1": 0.13214843,
+    "share_pct": 1.34
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Organised Tours",
+    "spend_million": 363.896,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.13214843,
+    "y1": 0.14125394,
+    "share_pct": 0.91
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Rental vehicles",
+    "spend_million": 557.679,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.14125394,
+    "y1": 0.15520833,
+    "share_pct": 1.4
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Petrol",
+    "spend_million": 5965.958,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.15520833,
+    "y1": 0.30449017,
+    "share_pct": 14.93
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Vehicle maintenance/repairs",
+    "spend_million": 602.764,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.30449017,
+    "y1": 0.31957269,
+    "share_pct": 1.51
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Taxi",
+    "spend_million": 497.503,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.31957269,
+    "y1": 0.33202135,
+    "share_pct": 1.24
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Other local public transport",
+    "spend_million": 241.313,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.33202135,
+    "y1": 0.33805955,
+    "share_pct": 0.6
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Long distance public transport",
+    "spend_million": 1057.162,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.33805955,
+    "y1": 0.36451215,
+    "share_pct": 2.65
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Accommodation",
+    "spend_million": 7492.193,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.36451215,
+    "y1": 0.55198385,
+    "share_pct": 18.75
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Groceries for self-catering",
+    "spend_million": 2416.783,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.55198385,
+    "y1": 0.61245725,
+    "share_pct": 6.05
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 1979.485,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.61245725,
+    "y1": 0.66198847,
+    "share_pct": 4.95
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Takeaways and restaurant meals",
+    "spend_million": 7016.043,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.66198847,
+    "y1": 0.83754582,
+    "share_pct": 17.56
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Shopping / gifts /souvenirs",
+    "spend_million": 3929.44,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.83754582,
+    "y1": 0.93586934,
+    "share_pct": 9.83
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Entertainment",
+    "spend_million": 1255.692,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.93586934,
+    "y1": 0.96728961,
+    "share_pct": 3.14
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Gambling",
+    "spend_million": 202.134,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.96728961,
+    "y1": 0.97234746,
+    "share_pct": 0.51
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Education fees",
+    "spend_million": 67.556,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.97234746,
+    "y1": 0.97403786,
+    "share_pct": 0.17
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 204.048,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.97403786,
+    "y1": 0.97914361,
+    "share_pct": 0.51
+  },
+  {
+    "quarter": "Dec Qtr 2025",
+    "category": "Other expenditure nfd",
+    "spend_million": 833.513,
+    "x0": 0.4,
+    "x1": 0.6,
+    "y0": 0.97914361,
+    "y1": 1.0,
+    "share_pct": 2.09
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Domestic airfares",
+    "spend_million": 4667.148,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.0,
+    "y1": 0.10921302,
+    "share_pct": 10.92
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Package Tours",
+    "spend_million": 621.416,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.10921302,
+    "y1": 0.12375438,
+    "share_pct": 1.45
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Organised Tours",
+    "spend_million": 426.961,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.12375438,
+    "y1": 0.13374543,
+    "share_pct": 1.0
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Rental vehicles",
+    "spend_million": 599.659,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.13374543,
+    "y1": 0.14777768,
+    "share_pct": 1.4
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Petrol",
+    "spend_million": 6271.732,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.14777768,
+    "y1": 0.29453856,
+    "share_pct": 14.68
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Vehicle maintenance/repairs",
+    "spend_million": 655.15,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.29453856,
+    "y1": 0.30986932,
+    "share_pct": 1.53
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Taxi",
+    "spend_million": 548.785,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.30986932,
+    "y1": 0.32271109,
+    "share_pct": 1.28
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Other local public transport",
+    "spend_million": 236.678,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.32271109,
+    "y1": 0.32824945,
+    "share_pct": 0.55
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Long distance public transport",
+    "spend_million": 1212.993,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.32824945,
+    "y1": 0.35663394,
+    "share_pct": 2.84
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Accommodation",
+    "spend_million": 8499.839,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.35663394,
+    "y1": 0.55553336,
+    "share_pct": 19.89
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Groceries for self-catering",
+    "spend_million": 2614.02,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.55553336,
+    "y1": 0.61670241,
+    "share_pct": 6.12
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 2064.778,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.61670241,
+    "y1": 0.66501899,
+    "share_pct": 4.83
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Takeaways and restaurant meals",
+    "spend_million": 7521.688,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.66501899,
+    "y1": 0.84102932,
+    "share_pct": 17.6
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Shopping / gifts /souvenirs",
+    "spend_million": 3966.101,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.84102932,
+    "y1": 0.93383757,
+    "share_pct": 9.28
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Entertainment",
+    "spend_million": 1343.056,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.93383757,
+    "y1": 0.96526558,
+    "share_pct": 3.14
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Gambling",
+    "spend_million": 224.139,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.96526558,
+    "y1": 0.97051052,
+    "share_pct": 0.52
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Education fees",
+    "spend_million": 55.215,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.97051052,
+    "y1": 0.97180257,
+    "share_pct": 0.13
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 247.571,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.97180257,
+    "y1": 0.97759583,
+    "share_pct": 0.58
+  },
+  {
+    "quarter": "Mar Qtr 2026",
+    "category": "Other expenditure nfd",
+    "spend_million": 957.428,
+    "x0": 0.6,
+    "x1": 0.8,
+    "y0": 0.97759583,
+    "y1": 1.0,
+    "share_pct": 2.24
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Domestic airfares",
+    "spend_million": 4541.032,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.0,
+    "y1": 0.11505267,
+    "share_pct": 11.51
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Package Tours",
+    "spend_million": 581.832,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.11505267,
+    "y1": 0.12979411,
+    "share_pct": 1.47
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Organised Tours",
+    "spend_million": 416.776,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.12979411,
+    "y1": 0.14035364,
+    "share_pct": 1.06
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Rental vehicles",
+    "spend_million": 508.321,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.14035364,
+    "y1": 0.15323259,
+    "share_pct": 1.29
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Petrol",
+    "spend_million": 5888.212,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.15323259,
+    "y1": 0.30241773,
+    "share_pct": 14.92
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Vehicle maintenance/repairs",
+    "spend_million": 595.775,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.30241773,
+    "y1": 0.31751243,
+    "share_pct": 1.51
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Taxi",
+    "spend_million": 524.337,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.31751243,
+    "y1": 0.33079716,
+    "share_pct": 1.33
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Other local public transport",
+    "spend_million": 230.297,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.33079716,
+    "y1": 0.33663202,
+    "share_pct": 0.58
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Long distance public transport",
+    "spend_million": 1083.611,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.33663202,
+    "y1": 0.36408665,
+    "share_pct": 2.75
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Accommodation",
+    "spend_million": 7253.451,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.36408665,
+    "y1": 0.54786182,
+    "share_pct": 18.38
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Groceries for self-catering",
+    "spend_million": 2384.123,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.54786182,
+    "y1": 0.60826653,
+    "share_pct": 6.04
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Alcohol, drinks (not already reported)",
+    "spend_million": 1876.407,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.60826653,
+    "y1": 0.65580762,
+    "share_pct": 4.75
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Takeaways and restaurant meals",
+    "spend_million": 6980.317,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.65580762,
+    "y1": 0.8326626,
+    "share_pct": 17.69
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Shopping / gifts /souvenirs",
+    "spend_million": 3839.121,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.8326626,
+    "y1": 0.92993149,
+    "share_pct": 9.73
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Entertainment",
+    "spend_million": 1338.351,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.92993149,
+    "y1": 0.96384027,
+    "share_pct": 3.39
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Gambling",
+    "spend_million": 222.604,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.96384027,
+    "y1": 0.96948022,
+    "share_pct": 0.56
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Education fees",
+    "spend_million": 50.881,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.96948022,
+    "y1": 0.97076935,
+    "share_pct": 0.13
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Convention / Conference / Seminar / Trade fair",
+    "spend_million": 233.047,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.97076935,
+    "y1": 0.97667389,
+    "share_pct": 0.59
+  },
+  {
+    "quarter": "Jun Qtr 2026",
+    "category": "Other expenditure nfd",
+    "spend_million": 920.662,
+    "x0": 0.8,
+    "x1": 1.0,
+    "y0": 0.97667389,
+    "y1": 1.0,
+    "share_pct": 2.33
+  }
+]

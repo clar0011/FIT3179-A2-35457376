@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Adult participation rate by age group for selected activities, Australia 2025.",
+  "data": { "url": "data/age-profile.json" },
+  "transform": [
+    {
+      "filter": {
+        "field": "activity",
+        "oneOf": [
+          "Bushwalking",
+          "Cycling",
+          "Canoeing / kayaking",
+          "Mountain biking",
+          "Surfing"
+        ]
+      }
+    }
+  ],
+  "width": "container",
+  "height": 300,
+  "mark": {
+    "type": "line",
+    "point": { "filled": true, "size": 45 },
+    "strokeWidth": 2.3
+  },
+  "encoding": {
+    "x": {
+      "field": "age_group",
+      "type": "ordinal",
+      "sort": ["15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+      "axis": { "title": "Age group", "labelAngle": 0 }
+    },
+    "y": {
+      "field": "participation_rate_pct",
+      "type": "quantitative",
+      "axis": { "title": "Participation rate (%)" }
+    },
+    "color": {
+      "field": "activity",
+      "type": "nominal",
+      "scale": { "scheme": "tableau10" },
+      "legend": { "title": "Activity" }
+    },
+    "tooltip": [
+      { "field": "activity" },
+      { "field": "age_group" },
+      {
+        "field": "participation_rate_pct",
+        "title": "Participation (%)",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

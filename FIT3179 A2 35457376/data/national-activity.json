@@ -1,0 +1,32 @@
+[
+  {
+    "activity": "Bushwalking",
+    "activity_raw": "Bush walking",
+    "participation_rate_pct": 17.4682
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "activity_raw": "Canoeing/Kayaking",
+    "participation_rate_pct": 0.9965
+  },
+  {
+    "activity": "Cycling",
+    "activity_raw": "Cycling",
+    "participation_rate_pct": 8.2939
+  },
+  {
+    "activity": "Mountain biking",
+    "activity_raw": "Mountain biking",
+    "participation_rate_pct": 0.7255
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "activity_raw": "Rock climbing/Abseiling/Caving",
+    "participation_rate_pct": 0.4574
+  },
+  {
+    "activity": "Surfing",
+    "activity_raw": "Surfing",
+    "participation_rate_pct": 1.3846
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "activity": "Bushwalking",
+    "age_group": "15-17",
+    "participation_rate_pct": 14.6046
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "18-24",
+    "participation_rate_pct": 17.3322
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "25-34",
+    "participation_rate_pct": 20.3008
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "35-44",
+    "participation_rate_pct": 21.4482
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "45-54",
+    "participation_rate_pct": 19.6914
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "55-64",
+    "participation_rate_pct": 19.5491
+  },
+  {
+    "activity": "Bushwalking",
+    "age_group": "65+",
+    "participation_rate_pct": 9.5681
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "15-17",
+    "participation_rate_pct": 0.6644
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "18-24",
+    "participation_rate_pct": 0.6377
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "25-34",
+    "participation_rate_pct": 0.9723
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "35-44",
+    "participation_rate_pct": 1.1269
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "45-54",
+    "participation_rate_pct": 1.2538
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "55-64",
+    "participation_rate_pct": 1.4757
+  },
+  {
+    "activity": "Canoeing / kayaking",
+    "age_group": "65+",
+    "participation_rate_pct": 0.6763
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "15-17",
+    "participation_rate_pct": 6.6573
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "18-24",
+    "participation_rate_pct": 5.5896
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "25-34",
+    "participation_rate_pct": 7.1214
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "35-44",
+    "participation_rate_pct": 9.2594
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "45-54",
+    "participation_rate_pct": 11.5883
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "55-64",
+    "participation_rate_pct": 11.9522
+  },
+  {
+    "activity": "Cycling",
+    "age_group": "65+",
+    "participation_rate_pct": 5.5757
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "15-17",
+    "participation_rate_pct": 1.7156
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "18-24",
+    "participation_rate_pct": 0.4847
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "25-34",
+    "participation_rate_pct": 0.6116
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "35-44",
+    "participation_rate_pct": 0.9662
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "45-54",
+    "participation_rate_pct": 1.2112
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "55-64",
+    "participation_rate_pct": 0.7136
+  },
+  {
+    "activity": "Mountain biking",
+    "age_group": "65+",
+    "participation_rate_pct": 0.209
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "15-17",
+    "participation_rate_pct": 1.7913
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "18-24",
+    "participation_rate_pct": 0.9784
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "25-34",
+    "participation_rate_pct": 0.6045
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "35-44",
+    "participation_rate_pct": 0.5452
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "45-54",
+    "participation_rate_pct": 0.2489
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "55-64",
+    "participation_rate_pct": 0.1591
+  },
+  {
+    "activity": "Rock climbing / abseiling / caving",
+    "age_group": "65+",
+    "participation_rate_pct": 0.0464
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "15-17",
+    "participation_rate_pct": 2.2175
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "18-24",
+    "participation_rate_pct": 1.2686
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "25-34",
+    "participation_rate_pct": 1.5659
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "35-44",
+    "participation_rate_pct": 1.8181
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "45-54",
+    "participation_rate_pct": 1.7681
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "55-64",
+    "participation_rate_pct": 1.3528
+  },
+  {
+    "activity": "Surfing",
+    "age_group": "65+",
+    "participation_rate_pct": 0.5112
+  }
+]

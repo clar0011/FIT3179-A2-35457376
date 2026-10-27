@@ -1,0 +1,258 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans, Arial, sans-serif",
+    "axis": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": 600,
+      "labelColor": "#4a5b60",
+      "titleColor": "#183238",
+      "gridColor": "#e6ebe9",
+      "domainColor": "#c3cdcc",
+      "tickColor": "#c3cdcc",
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "titleFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": 600,
+      "labelColor": "#4a5b60",
+      "titleColor": "#183238",
+      "symbolSize": 140
+    },
+    "header": {
+      "labelFont": "DM Sans, Arial, sans-serif",
+      "labelFontSize": 14,
+      "labelFontWeight": 700,
+      "labelColor": "#183238",
+      "title": null
+    }
+  },
+  "height": 300,
+  "projection": {
+    "type": "mercator",
+    "center": [
+      136.2,
+      -27.6
+    ],
+    "scale": 760
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/state-boundaries.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#edf1f0",
+        "stroke": "#fff",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "url": "data/state-boundaries.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "params": [
+        {
+          "name": "hv",
+          "select": {
+            "type": "point",
+            "fields": [
+              "properties.state_code"
+            ],
+            "on": "mouseover",
+            "clear": "dblclick"
+          }
+        }
+      ],
+      "transform": [
+        {
+          "lookup": "properties.state_code",
+          "from": {
+            "data": {
+              "url": "data/state-bushwalking.json"
+            },
+            "key": "state_code",
+            "fields": [
+              "participation_rate_pct"
+            ]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fff",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "color": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "scale": {
+            "range": [
+              "#dff1ef",
+              "#0a4a4d"
+            ]
+          },
+          "legend": {
+            "title": "Adults bushwalking (%)",
+            "format": ".0f",
+            "orient": "bottom-left",
+            "gradientLength": 200
+          }
+        },
+        "stroke": {
+          "condition": {
+            "param": "hv",
+            "empty": false,
+            "value": "#183238"
+          },
+          "value": "#fff"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hv",
+            "empty": false,
+            "value": 2.5
+          },
+          "value": 1.5
+        },
+        "tooltip": [
+          {
+            "field": "properties.state_name",
+            "title": "State"
+          },
+          {
+            "field": "participation_rate_pct",
+            "title": "Bushwalking (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/cycling-tourism-state.json"
+      },
+      "transform": [
+        {
+          "lookup": "state_code",
+          "from": {
+            "data": {
+              "url": "data/state-bushwalking.json"
+            },
+            "key": "state_code",
+            "fields": [
+              "participation_rate_pct"
+            ]
+          }
+        },
+        {
+          "calculate": "datum.state_code+' '+format(datum.participation_rate_pct,'.1f')+'%'",
+          "as": "lab"
+        },
+        {
+          "filter": "datum.state_code!='ACT'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "dy": 0
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "lab"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.participation_rate_pct>9",
+            "value": "#fff"
+          },
+          "value": "#183238"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/cycling-tourism-state.json"
+      },
+      "transform": [
+        {
+          "lookup": "state_code",
+          "from": {
+            "data": {
+              "url": "data/state-bushwalking.json"
+            },
+            "key": "state_code",
+            "fields": [
+              "participation_rate_pct"
+            ]
+          }
+        },
+        {
+          "calculate": "datum.state_code+' '+format(datum.participation_rate_pct,'.1f')+'%'",
+          "as": "lab"
+        },
+        {
+          "filter": "datum.state_code=='ACT'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "dx": 34,
+        "dy": 8,
+        "color": "#183238",
+        "stroke": "#fff",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "lab"
+        }
+      }
+    }
+  ],
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  }
+}

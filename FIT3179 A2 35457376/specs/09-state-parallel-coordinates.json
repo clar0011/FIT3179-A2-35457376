@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Parallel coordinates comparing state metrics after normalising each measure to a 0–100 scale. The original values differ in units.",
+  "data": { "url": "data/state-parallel-coordinates.json" },
+  "width": "container",
+  "height": 330,
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2,
+    "opacity": 0.7,
+    "point": { "filled": true, "size": 25 }
+  },
+  "encoding": {
+    "x": {
+      "field": "metric",
+      "type": "ordinal",
+      "sort": [
+        "Cycling participation",
+        "Bushwalking participation",
+        "Cycling-tourism trips",
+        "Cycling-tourism spend",
+        "Domestic trips change"
+      ],
+      "axis": { "title": null, "labelAngle": -18 }
+    },
+    "y": {
+      "field": "normalized",
+      "type": "quantitative",
+      "scale": { "domain": [0, 100] },
+      "axis": {
+        "title": "Relative position within each metric (0–100)",
+        "values": [0, 25, 50, 75, 100]
+      }
+    },
+    "color": {
+      "field": "state_code",
+      "type": "nominal",
+      "scale": { "scheme": "tableau10" },
+      "legend": { "title": "State" }
+    },
+    "detail": { "field": "state_code" },
+    "tooltip": [
+      { "field": "state", "title": "State" },
+      { "field": "metric", "title": "Metric" },
+      { "field": "value", "title": "Original value", "format": ".2f" },
+      { "field": "normalized", "title": "Normalised score" }
+    ]
+  },
+  "config": {
+    "view": { "stroke": null },
+    "axis": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53",
+      "gridColor": "#e7edf1",
+      "domainColor": "#c9d4dc",
+      "tickColor": "#c9d4dc"
+    },
+    "legend": {
+      "labelFont": "Inter, Arial, sans-serif",
+      "titleFont": "Inter, Arial, sans-serif",
+      "labelColor": "#52606d",
+      "titleColor": "#243b53"
+    }
+  }
+}

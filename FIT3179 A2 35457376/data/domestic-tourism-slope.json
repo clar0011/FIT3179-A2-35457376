@@ -1,0 +1,114 @@
+[
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "period": "YE Jun 2025",
+    "trips_million": 120.289,
+    "change_pct": 5.113
+  },
+  {
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "period": "YE Jun 2026",
+    "trips_million": 126.439,
+    "change_pct": 5.113
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "period": "YE Jun 2025",
+    "trips_million": 112.819,
+    "change_pct": 4.923
+  },
+  {
+    "state": "Victoria",
+    "state_code": "VIC",
+    "period": "YE Jun 2026",
+    "trips_million": 118.373,
+    "change_pct": 4.923
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "period": "YE Jun 2025",
+    "trips_million": 78.143,
+    "change_pct": 7.721
+  },
+  {
+    "state": "Queensland",
+    "state_code": "QLD",
+    "period": "YE Jun 2026",
+    "trips_million": 84.177,
+    "change_pct": 7.721
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "period": "YE Jun 2025",
+    "trips_million": 23.736,
+    "change_pct": 3.589
+  },
+  {
+    "state": "South Australia",
+    "state_code": "SA",
+    "period": "YE Jun 2026",
+    "trips_million": 24.588,
+    "change_pct": 3.589
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "period": "YE Jun 2025",
+    "trips_million": 37.81,
+    "change_pct": 7.297
+  },
+  {
+    "state": "Western Australia",
+    "state_code": "WA",
+    "period": "YE Jun 2026",
+    "trips_million": 40.569,
+    "change_pct": 7.297
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "period": "YE Jun 2025",
+    "trips_million": 7.516,
+    "change_pct": 2.289
+  },
+  {
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "period": "YE Jun 2026",
+    "trips_million": 7.688,
+    "change_pct": 2.289
+  },
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "period": "YE Jun 2025",
+    "trips_million": 2.2,
+    "change_pct": 2.521
+  },
+  {
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "period": "YE Jun 2026",
+    "trips_million": 2.255,
+    "change_pct": 2.521
+  },
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "period": "YE Jun 2025",
+    "trips_million": 4.22,
+    "change_pct": 3.025
+  },
+  {
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "period": "YE Jun 2026",
+    "trips_million": 4.348,
+    "change_pct": 3.025
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "tile": 0,
+    "x": 0,
+    "y": 9,
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "spend_million": 104,
+    "share_pct": 1.7660044150110374
+  },
+  {
+    "tile": 1,
+    "x": 1,
+    "y": 9,
+    "state": "Northern Territory",
+    "state_code": "NT",
+    "spend_million": 104,
+    "share_pct": 1.7660044150110374
+  },
+  {
+    "tile": 2,
+    "x": 2,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 3,
+    "x": 3,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 4,
+    "x": 4,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 5,
+    "x": 5,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 6,
+    "x": 6,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 7,
+    "x": 7,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 8,
+    "x": 8,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 9,
+    "x": 9,
+    "y": 9,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 10,
+    "x": 0,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 11,
+    "x": 1,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 12,
+    "x": 2,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 13,
+    "x": 3,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 14,
+    "x": 4,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 15,
+    "x": 5,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 16,
+    "x": 6,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 17,
+    "x": 7,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 18,
+    "x": 8,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 19,
+    "x": 9,
+    "y": 8,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 20,
+    "x": 0,
+    "y": 7,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 21,
+    "x": 1,
+    "y": 7,
+    "state": "Queensland",
+    "state_code": "QLD",
+    "spend_million": 1200,
+    "share_pct": 20.376974019358126
+  },
+  {
+    "tile": 22,
+    "x": 2,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 23,
+    "x": 3,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 24,
+    "x": 4,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 25,
+    "x": 5,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 26,
+    "x": 6,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 27,
+    "x": 7,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 28,
+    "x": 8,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 29,
+    "x": 9,
+    "y": 7,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 30,
+    "x": 0,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 31,
+    "x": 1,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 32,
+    "x": 2,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 33,
+    "x": 3,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 34,
+    "x": 4,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 35,
+    "x": 5,
+    "y": 6,
+    "state": "Western Australia",
+    "state_code": "WA",
+    "spend_million": 799,
+    "share_pct": 13.567668534555951
+  },
+  {
+    "tile": 36,
+    "x": 6,
+    "y": 6,
+    "state": "South Australia",
+    "state_code": "SA",
+    "spend_million": 229,
+    "share_pct": 3.888605875360842
+  },
+  {
+    "tile": 37,
+    "x": 7,
+    "y": 6,
+    "state": "South Australia",
+    "state_code": "SA",
+    "spend_million": 229,
+    "share_pct": 3.888605875360842
+  },
+  {
+    "tile": 38,
+    "x": 8,
+    "y": 6,
+    "state": "South Australia",
+    "state_code": "SA",
+    "spend_million": 229,
+    "share_pct": 3.888605875360842
+  },
+  {
+    "tile": 39,
+    "x": 9,
+    "y": 6,
+    "state": "South Australia",
+    "state_code": "SA",
+    "spend_million": 229,
+    "share_pct": 3.888605875360842
+  },
+  {
+    "tile": 40,
+    "x": 0,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 41,
+    "x": 1,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 42,
+    "x": 2,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 43,
+    "x": 3,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 44,
+    "x": 4,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 45,
+    "x": 5,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 46,
+    "x": 6,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 47,
+    "x": 7,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 48,
+    "x": 8,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 49,
+    "x": 9,
+    "y": 5,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 50,
+    "x": 0,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 51,
+    "x": 1,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 52,
+    "x": 2,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 53,
+    "x": 3,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 54,
+    "x": 4,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 55,
+    "x": 5,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 56,
+    "x": 6,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 57,
+    "x": 7,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 58,
+    "x": 8,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 59,
+    "x": 9,
+    "y": 4,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 60,
+    "x": 0,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 61,
+    "x": 1,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 62,
+    "x": 2,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 63,
+    "x": 3,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 64,
+    "x": 4,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 65,
+    "x": 5,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 66,
+    "x": 6,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 67,
+    "x": 7,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 68,
+    "x": 8,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 69,
+    "x": 9,
+    "y": 3,
+    "state": "New South Wales",
+    "state_code": "NSW",
+    "spend_million": 1800,
+    "share_pct": 30.565461029037188
+  },
+  {
+    "tile": 70,
+    "x": 0,
+    "y": 2,
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "spend_million": 97,
+    "share_pct": 1.6471387332314484
+  },
+  {
+    "tile": 71,
+    "x": 1,
+    "y": 2,
+    "state": "Australian Capital Territory",
+    "state_code": "ACT",
+    "spend_million": 97,
+    "share_pct": 1.6471387332314484
+  },
+  {
+    "tile": 72,
+    "x": 2,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 73,
+    "x": 3,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 74,
+    "x": 4,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 75,
+    "x": 5,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 76,
+    "x": 6,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 77,
+    "x": 7,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 78,
+    "x": 8,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 79,
+    "x": 9,
+    "y": 2,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 80,
+    "x": 0,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 81,
+    "x": 1,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 82,
+    "x": 2,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 83,
+    "x": 3,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 84,
+    "x": 4,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 85,
+    "x": 5,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 86,
+    "x": 6,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 87,
+    "x": 7,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 88,
+    "x": 8,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 89,
+    "x": 9,
+    "y": 1,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 90,
+    "x": 0,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 91,
+    "x": 1,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 92,
+    "x": 2,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 93,
+    "x": 3,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 94,
+    "x": 4,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 95,
+    "x": 5,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 96,
+    "x": 6,
+    "y": 0,
+    "state": "Victoria",
+    "state_code": "VIC",
+    "spend_million": 1500,
+    "share_pct": 25.47121752419766
+  },
+  {
+    "tile": 97,
+    "x": 7,
+    "y": 0,
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "spend_million": 160,
+    "share_pct": 2.71692986924775
+  },
+  {
+    "tile": 98,
+    "x": 8,
+    "y": 0,
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "spend_million": 160,
+    "share_pct": 2.71692986924775
+  },
+  {
+    "tile": 99,
+    "x": 9,
+    "y": 0,
+    "state": "Tasmania",
+    "state_code": "TAS",
+    "spend_million": 160,
+    "share_pct": 2.71692986924775
+  }
+]
