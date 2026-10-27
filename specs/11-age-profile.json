@@ -2,6 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Adult participation rate by age group for selected activities, Australia 2025.",
   "data": { "url": "data/age-profile.json" },
+  "padding": {
+  "top": 15,
+  "bottom": 15,
+  "left": 10,
+  "right": 10
+},
   "transform": [
     {
       "filter": {
@@ -17,7 +23,7 @@
     }
   ],
   "width": "container",
-  "height": 300,
+  "height": 365,
   "mark": {
     "type": "line",
     "point": { "filled": true, "size": 45 },

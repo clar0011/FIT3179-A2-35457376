@@ -35,26 +35,35 @@
     </header>
 
     <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span class="eyebrow-dot"></span> OUTDOORS · PARTICIPATION · PLACE
-          </p>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">
+      <span class="eyebrow-dot"></span>
+      OUTDOORS · PARTICIPATION · PLACE
+    </p>
 
-          <h1>Beyond the<br /><em>Beaten Track.</em></h1>
+    <h1>Beyond the<br /><em>Beaten Track.</em></h1>
 
-          <p class="hero-deck">
-            Where Australians get outdoors — and what cycling-inclusive travel
-            reveals about the places they visit.
-          </p>
+    <p class="hero-deck">
+      Where Australians get outdoors — and what cycling-inclusive travel
+      reveals about the places they visit.
+    </p>
 
-          <div class="hero-meta">
-            <span>AUSTRALIA</span>
-            <span>8 STATES & TERRITORIES</span>
-            <span>14 VISUALISATIONS</span>
-          </div>
-        </div>
-      </section>
+    <div class="hero-meta">
+      <span>AUSTRALIA</span>
+      <span>8 STATES &amp; TERRITORIES</span>
+      <span>14 VISUALISATIONS</span>
+    </div>
+
+    <!-- Author and publication date INSIDE the hero -->
+    <section class="hero-byline">
+      <p class="hero-author">By Clariche Mary Soetanto</p>
+      <span class="byline-divider">·</span>
+      <time datetime="2026-10-27">October 2026</time>
+    </section>
+  </div>
+</section>
+      
       <section class="intro-band">
         <div class="section-kicker">THE QUESTION</div>
         <p>
@@ -106,7 +115,7 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 01</span
-              ><span class="chart-type basic">ADVANCED · LOLLIPOP CHART</span>
+              >
             </div>
             <h3>Which outdoor activities reach the most adults?</h3>
             <p>
@@ -120,7 +129,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 02</span
-              ><span class="chart-type advanced">ADVANCED · CHOROPLETH</span>
+              >
             </div>
             <h3>Bushwalking participation, by state</h3>
             <p>
@@ -136,21 +145,23 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 03</span
-              ><span class="chart-type advanced">ADVANCED · BUTTERFLY CHART</span>
+              >
             </div>
-            <h3>Cycling vs bushwalking across states</h3>
+            <h3>A matrix of outdoor habits</h3>
             <p>
-              Compare two popular outdoor activities across all eight states and territories.
+              Compare six activity rates across all eight states and territories
+              in one view.
             </p>
             <div id="chart-05" class="vis"></div>
             <div class="chart-caption">
-              Bars extend from a shared centre: cycling to the left, bushwalking to the right. Hover for exact rates.
+              Darker cells indicate higher estimated participation. Hover for
+              the exact rate.
             </div>
           </article>
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 04</span
-              ><span class="chart-type advanced">ADVANCED · DUMBBELL PLOT</span>
+              >
             </div>
             <h3>How much do states differ?</h3>
             <p>
@@ -167,7 +178,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 05</span
-              ><span class="chart-type advanced">ADVANCED · BUMP CHART</span>
+              >
             </div>
             <h3>Who ranks where?</h3>
             <p>
@@ -183,7 +194,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 06</span
-              ><span class="chart-type basic">BASIC · AGE PROFILE</span>
+              >
             </div>
             <h3>Participation across age groups</h3>
             <p>
@@ -230,12 +241,12 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 07</span
-              ><span class="chart-type advanced">ADVANCED · SYMBOL MAP</span>
+              >
             </div>
-            <h3>Where cycling-inclusive trips land</h3>
+            <h3>Victoria and New South Wales host the most cycling-inclusive trips, at 1.54M and 1.48M in 2024</h3>
             <p>
-              Circle size represents reported trips involving cycling by state
-              or territory in 2024.
+              Circle size shows reported trips involving cycling in each state or territory, from 1.54M in Victoria down to 36k in the Northern Territory.
+              Queensland follows at 762k.
             </p>
             <div id="chart-03" class="vis"></div>
             <div class="chart-caption">
@@ -247,8 +258,6 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 08</span
-              ><span class="chart-type advanced"
-                >ADVANCED · TILE CARTOGRAM</span
               >
             </div>
             <h3>Every state gets equal space</h3>
@@ -266,7 +275,7 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 08</span
-              ><span class="chart-type advanced">ADVANCED · LOLLIPOP CHART</span>
+              >
             </div>
             <h3>Which states report the most cycling-trip expenditure?</h3>
             <p>
@@ -280,8 +289,6 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 10</span
-              ><span class="chart-type advanced"
-                >ADVANCED · PARALLEL COORDINATES</span
               >
             </div>
             <h3>Different states, different profiles</h3>
@@ -300,7 +307,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 11</span
-              ><span class="chart-type basic">BASIC · SCATTERPLOT</span>
+              >
             </div>
             <h3>Participation vs travel volume</h3>
             <p>
@@ -332,11 +339,12 @@
           <article class="chart-card wide">
             <div class="chart-head">
               <span class="chart-number">CHART 12</span
-              ><span class="chart-type advanced">ADVANCED · SANKEY DIAGRAM</span>
+              >
             </div>
-            <h3>Where overnight trips go, by reason for travel</h3>
+            <h3>New South Wales receives the most overnight trips, and holidays are the biggest reason</h3>
             <p>
-              Ribbons connect stopover purpose to destination state or territory. Wider ribbons represent more overnight trips in the year ending December 2024.
+              Ribbon width shows overnight trips from each travel purpose to the destination state or territory in the year ending December 2024.
+              Holiday and leisure accounts for 50.7M of the 121.2M trips shown; New South Wales receives 38.3M.
             </p>
             <div id="chart-10" class="vis sankey-vis" role="img" aria-label="Sankey diagram connecting overnight trip purpose to Australian destination state or territory"></div>
             <div class="chart-caption">
@@ -346,7 +354,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 13</span
-              ><span class="chart-type basic">BASIC · LINE CHART</span>
+              >
             </div>
             <h3>Domestic trips and visitor nights</h3>
             <p>
@@ -362,7 +370,7 @@
           <article class="chart-card">
             <div class="chart-head">
               <span class="chart-number">CHART 14</span
-              ><span class="chart-type advanced">ADVANCED · SLOPE CHART</span>
+              >
             </div>
             <h3>How did domestic trips change year to year?</h3>
             <p>

@@ -648,7 +648,7 @@ footer a {
 
 /* Purpose-to-destination Sankey diagram */
 .sankey-vis { overflow-x: auto; }
-.sankey-svg { display:block; width:100%; height:auto; min-width:680px; overflow:visible; }
+.sankey-svg { display:block; width:100%; height:auto; min-width:760px; overflow:visible; }
 .sankey-label { font: 500 12px 'DM Sans', Arial, sans-serif; fill:#294653; }
 .sankey-value { font: 500 11px 'DM Sans', Arial, sans-serif; fill:#71818a; }
 .sankey-heading { font: 700 11px 'DM Sans', Arial, sans-serif; letter-spacing:1.3px; fill:#71818a; }
@@ -658,14 +658,46 @@ footer a {
 .sankey-link.active { opacity:.95; }
 .sankey-hint { margin:8px 0 0; color:#71818a; font-size:.82rem; }
 
+.hero-byline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+  color: #45676a;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700
+}
 
-/* Responsive map sizing and compact Sankey layout */
-#chart-02, #chart-03, #chart-04 { min-height: 0; }
-#chart-02 .vega-embed, #chart-03 .vega-embed, #chart-04 .vega-embed { width: 100%; }
-#chart-02 svg, #chart-03 svg, #chart-04 svg { max-height: 340px; }
-.sankey-vis { overflow-x: auto; overflow-y: hidden; }
-.sankey-svg { display:block; width:100%; height:auto; min-width:760px; overflow:visible; }
-.sankey-label { font: 500 11px 'DM Sans', Arial, sans-serif; fill:#294653; }
-.sankey-value { font: 500 10px 'DM Sans', Arial, sans-serif; fill:#71818a; }
-.sankey-heading { font: 700 10px 'DM Sans', Arial, sans-serif; letter-spacing:1.2px; fill:#71818a; }
-@media (max-width: 800px) { .sankey-svg { min-width:760px; } #chart-02 svg, #chart-03 svg, #chart-04 svg { max-height: 300px; } }
+.hero-byline p {
+  margin: 0;
+  font-weight: 700
+}
+
+.byline-divider {
+  color: #e58b4a;
+  font-weight: 700;
+}
+
+
+.footer-ai {
+  margin: 10px 0 0;
+  max-width: 600px;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: #7b8985;
+  text-align: right;
+}
+
+footer {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .footer-ai {
+    text-align: left;
+    font-size: 0.7rem;
+  }
+}

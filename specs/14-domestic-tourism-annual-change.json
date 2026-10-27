@@ -5,7 +5,7 @@
     "url": "data/domestic-tourism-slope.json"
   },
   "width": "container",
-  "height": 300,
+  "height": 350,
   "layer": [
     {
       "mark": {

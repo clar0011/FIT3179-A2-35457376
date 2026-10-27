@@ -1,159 +1,160 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
-  "config": {
-    "view": {
-      "stroke": null
-    },
-    "font": "DM Sans, Arial, sans-serif",
-    "axis": {
-      "labelFont": "DM Sans, Arial, sans-serif",
-      "titleFont": "DM Sans, Arial, sans-serif",
-      "labelFontSize": 13,
-      "titleFontSize": 13,
-      "titleFontWeight": 600,
-      "labelColor": "#4a5b60",
-      "titleColor": "#183238",
-      "gridColor": "#e6ebe9",
-      "domainColor": "#c3cdcc",
-      "tickColor": "#c3cdcc",
-      "titlePadding": 10
-    },
-    "legend": {
-      "labelFont": "DM Sans, Arial, sans-serif",
-      "titleFont": "DM Sans, Arial, sans-serif",
-      "labelFontSize": 13,
-      "titleFontSize": 13,
-      "titleFontWeight": 600,
-      "labelColor": "#4a5b60",
-      "titleColor": "#183238",
-      "symbolSize": 140
-    },
-    "header": {
-      "labelFont": "DM Sans, Arial, sans-serif",
-      "labelFontSize": 14,
-      "labelFontWeight": 700,
-      "labelColor": "#183238",
-      "title": null
-    }
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": "container",
+ "config": {
+  "view": {
+   "stroke": null
   },
-  "height": 300,
-  "projection": {
-    "type": "mercator",
-    "center": [
-      136.2,
-      -27.6
-    ],
-    "scale": 760
+  "font": "DM Sans, Arial, sans-serif",
+  "axis": {
+   "labelFont": "DM Sans, Arial, sans-serif",
+   "titleFont": "DM Sans, Arial, sans-serif",
+   "labelFontSize": 13,
+   "titleFontSize": 13,
+   "titleFontWeight": 600,
+   "labelColor": "#4a5b60",
+   "titleColor": "#183238",
+   "gridColor": "#e6ebe9",
+   "domainColor": "#c3cdcc",
+   "tickColor": "#c3cdcc",
+   "titlePadding": 10
   },
-  "layer": [
-    {
-      "data": {
-        "url": "data/state-boundaries.geojson",
-        "format": {
-          "type": "json",
-          "property": "features"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "#edf1f0",
-        "stroke": "#fff",
-        "strokeWidth": 1.2
-      }
-    },
-    {
-      "data": {
-        "url": "data/cycling-tourism-state.json"
-      },
-      "params": [
-        {
-          "name": "hv",
-          "select": {
-            "type": "point",
-            "fields": [
-              "state_code"
-            ],
-            "on": "mouseover",
-            "clear": "dblclick"
-          }
-        }
-      ],
-      "mark": {
-        "type": "circle",
-        "stroke": "#fff",
-        "strokeWidth": 1.5,
-        "color": "#d9701f"
-      },
-      "encoding": {
-        "longitude": {
-          "field": "longitude",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "latitude",
-          "type": "quantitative"
-        },
-        "order": {
-          "field": "trips",
-          "sort": "descending"
-        },
-        "size": {
-          "field": "trips",
-          "type": "quantitative",
-          "scale": {
-            "range": [
-              120,
-              2200
-            ]
-          },
-          "legend": {
-            "title": "Trips including cycling",
-            "format": ".2s",
-            "orient": "bottom-left",
-            "values": [
-              100000,
-              500000,
-              1000000,
-              1500000
-            ]
-          }
-        },
-        "opacity": {
-          "condition": {
-            "param": "hv",
-            "empty": true,
-            "value": 0.85
-          },
-          "value": 0.3
-        },
-        "tooltip": [
-          {
-            "field": "state",
-            "title": "State"
-          },
-          {
-            "field": "trips",
-            "title": "Trips",
-            "format": ","
-          },
-          {
-            "field": "nights",
-            "title": "Nights",
-            "format": ","
-          },
-          {
-            "field": "spend_million",
-            "title": "Spend (A$M)",
-            "format": ","
-          }
-        ]
-      }
-    }
-  ],
-  "autosize": {
-    "type": "fit",
-    "contains": "padding",
-    "resize": true
+  "legend": {
+   "labelFont": "DM Sans, Arial, sans-serif",
+   "titleFont": "DM Sans, Arial, sans-serif",
+   "labelFontSize": 13,
+   "titleFontSize": 13,
+   "titleFontWeight": 600,
+   "labelColor": "#4a5b60",
+   "titleColor": "#183238",
+   "symbolSize": 140
+  },
+  "header": {
+   "labelFont": "DM Sans, Arial, sans-serif",
+   "labelFontSize": 14,
+   "labelFontWeight": 700,
+   "labelColor": "#183238",
+   "title": null
   }
+ },
+ "height": 400,
+ "projection": {
+  "type": "mercator",
+  "center": [
+   136.2,
+   -27.6
+  ],
+  "scale": 550
+ },
+ "layer": [
+  {
+   "data": {
+    "url": "data/state-boundaries.geojson",
+    "format": {
+     "type": "json",
+     "property": "features"
+    }
+   },
+   "mark": {
+    "type": "geoshape",
+    "fill": "#edf1f0",
+    "stroke": "#fff",
+    "strokeWidth": 1.2
+   }
+  },
+  {
+   "data": {
+    "url": "data/cycling-tourism-state.json"
+   },
+   "params": [
+    {
+     "name": "hv",
+     "select": {
+      "type": "point",
+      "fields": [
+       "state_code"
+      ],
+      "on": "mouseover",
+      "clear": "dblclick"
+     }
+    }
+   ],
+   "mark": {
+    "type": "circle",
+    "stroke": "#fff",
+    "strokeWidth": 1.5,
+    "color": "#d9701f"
+   },
+   "encoding": {
+    "longitude": {
+     "field": "longitude",
+     "type": "quantitative"
+    },
+    "latitude": {
+     "field": "latitude",
+     "type": "quantitative"
+    },
+    "order": {
+     "field": "trips",
+     "sort": "descending"
+    },
+    "size": {
+     "field": "trips",
+     "type": "quantitative",
+     "scale": {
+      "range": [
+       120,
+       2200
+      ]
+     },
+"legend": {
+  "title": "Trips including cycling",
+  "format": ".2s",
+  "orient": "bottom",
+  "direction": "horizontal",
+  "offset": 18,
+      "titleFontSize": 11,
+      "labelFontSize": 11,
+      "columnPadding": 14,
+      "padding": 4,
+      "values": [
+       100000,
+       500000,
+       1000000,
+       1500000
+      ]
+     }
+    },
+    "opacity": {
+     "condition": {
+      "param": "hv",
+      "empty": true,
+      "value": 0.85
+     },
+     "value": 0.3
+    },
+    "tooltip": [
+     {
+      "field": "state",
+      "title": "State"
+     },
+     {
+      "field": "trips",
+      "title": "Trips",
+      "format": ","
+     },
+     {
+      "field": "nights",
+      "title": "Nights",
+      "format": ","
+     },
+     {
+      "field": "spend_million",
+      "title": "Spend (A$M)",
+      "format": ","
+     }
+    ]
+   }
+  }
+ ]
 }
